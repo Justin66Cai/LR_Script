@@ -1,9 +1,0 @@
-GET /WebTours/CalSelect.class HTTP/1.1
-User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-cn
-Accept: */*
-Connection: Keep-Alive
-Host: 192.168.1.8:1080
-Cookie: MSO=SID&1518245546; MTUserInfo=firstName&sdsdf&address2&sdf&username&andy&hash&121&lastName&sd%0A&address1&sdfgsd&creditCard&&expDate&%0A
-

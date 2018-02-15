@@ -1,1 +1,0 @@
--usr "E:\road学习总结\加密\zuoye\zuoye.usr" -compile_only -out "E:\road学习总结\加密\zuoye\" -drv_log_file "E:\road学习总结\加密\zuoye\mdrv.log" -cfg "E:\road学习总结\加密\zuoye\default.cfg" -product_name vugen
