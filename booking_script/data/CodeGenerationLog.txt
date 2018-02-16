@@ -1,0 +1,3671 @@
+****** Start Log Message ******
+Web Recorder version : 11.0.9409.0 
+Recording Mode: HTML-based script containing explicit URLs only
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 11.0.9409.0
+
+****** Request Header For Transaction With Id 5 ******
+GET /WebTours/ HTTP/1.1
+Accept: */*
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 5 Ended $$$$$$
+
+****** Response Header For Transaction With Id 5 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:57 GMT
+Content-type: text/html
+Content-length: 312
+Last-modified: Tue, 08 May 2007 15:40:23 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 5 Ended $$$$$$
+
+****** Response Body For Transaction With Id 5 ******
+<HTML>
+<HEAD>
+<title>Web Tours</title>
+<frameset rows = "65,*" border=1 bordercolor=#E0E7F1>
+<frame name="header" src=header.html scrolling=no noresize marginheight=2 marginwidth=2>
+<frame name="body" src=welcome.pl?signOff=true scrolling=auto noresize marginheight=2 marginwidth=2>
+</frameset>
+</head>
+</html>
+
+
+$$$$$$ Response Body For Transaction With Id 5 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 5 ****** (Location Flag : tFlagInsertEnd, Location ID : 5)
+	web_url("WebTours",
+		"URL=http://127.0.0.1:1080/WebTours/",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 5 Ended $$$$$$
+
+****** Request Header For Transaction With Id 8 ******
+GET /WebTours/header.html HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Header For Transaction With Id 8 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: text/html
+Content-length: 692
+Last-modified: Tue, 08 May 2007 15:40:23 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Body For Transaction With Id 8 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD>
+<BODY bgcolor=#003366 leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" height="45" width="69" align="absmiddle" border="0"><img src="images/webtours.png" alt="" height="45" width="130" align="absmiddle" border="0"></td>
+				<td align="right"></td>
+				<td></td>
+			</tr>
+		</table>
+	</BODY>
+
+$$$$$$ Response Body For Transaction With Id 8 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 10 ******
+GET /WebTours/images/hp_logo.png HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/header.html
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Header For Transaction With Id 10 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: image/png
+Content-length: 601
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Body For Transaction With Id 10 ******
+âPNG
+\x1A
+\x00\x00\x00IHDR\x00\x00\x00E\x00\x00\x00-\x08\x03\x00\x00\x00œÙV,\x00\x00\x00\x04gAMA\x00\x00÷ÿ‘OX2\x00\x00\x00\x19tEXtSoftware\x00Adobe ImageReadyq…e<\x00\x00\x000PLTE\x01/c<b\x89\xFF\xFF\xFF\x15Cr_~\x9E\x7Fô≤ú∞ƒÚı˜Õ◊·¡Œ⁄±¿–Ÿ·Ë‚ÁÓÍÓÚÓÚ\xF5\x003fJQw \x00\x00\x00\x10tRNS\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x00\xE0#]\x19\x00\x00\x01ìIDATx⁄ÏV]o\xC3 \x0C\xC4\x18L\x08$\xFB\xFF\xFFv˛ÄuM2¢ΩL\xCA=–™\x8A/>s∂Î>\xFE\x02Óa˘ü,HÈà\x80\xB5\x1D'Ï—]≤ê?¢bÙ~√ê\xFC\x15\xE2%À~|å¿-|:\x04\x08TœÔ∏d9ºq\x01ÁÄ?ÉS`(\x07\x964¿B»°,≤†k@öf!\x8D+¢˛\x858…í5\x03\x11\x04\xEE'ö_Yí≈≤Ñ≈Ω!œ∞\x90\x15¢ä \xCD
+\x15ú]\x1Agi\xA9\x04˝æsùÅmÊSZ——8K∂ÙWÔ˜™w-±E\x8D\x06\xE3,v/\xC8?\x04+∞‹\x15nÍù2\xCC\x02˝BviÅ™\xD2 H3hÇS,Y™¨-@"rµ¢«Q\x16+Æj\xD1\x03w\x11‘ö!Ã±Dq\x7F\x14«p`\xC2 ->√bää(P«∞ñ’ÙÕ(“Ãª†\x04™Â\xAB\x19∆´K›˝Z÷ÿ∆ï5√¯Ms\x01\xC4\x1D\xCD"|M\x1BmÕE\x13Æ„P(ÀÇ|dÏ≠cÉf\xA2\x03¸Ço”†\x00√fEöô/ØŸÑ•∑¯ÙdË]›¸\x01˜¶\x14wPèî—{wb\xF23·€§∫;\xBD\x19+\x98 S7∫IN[ÕÁ VÕº÷∆\xB7\x1A],Q\xF5\x1D÷âãÎq£ÀäNU\x8E\x0B\xF08~˛K=,\x13\xF8\x14`\x00G2p	^»€u\x00\x00\x00\x00IENDÆB`\x82
+$$$$$$ Response Body For Transaction With Id 10 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 11 ******
+GET /WebTours/images/webtours.png HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/header.html
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 11 Ended $$$$$$
+
+****** Response Header For Transaction With Id 11 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: image/png
+Content-length: 818
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 11 Ended $$$$$$
+
+****** Response Body For Transaction With Id 11 ******
+âPNG
+\x1A
+\x00\x00\x00IHDR\x00\x00\x00\x82\x00\x00\x00-\x08\x03\x00\x00\x00UóC\xF4\x00\x00\x00\x04gAMA\x00\x00÷ÿ‘OX2\x00\x00\x00\x19tEXtSoftware\x00Adobe ImageReadyq…e<\x00\x00\x000PLTE\xFF\xFF\xFFwí≠ª…÷Di\x8F\x11ApÓÒı›‰Î3\\ÖÃ÷‡ô≠¬fÖ£"Nz™ªÃà†∏Uw\x99\x003fßèL\xB5\x00\x00\x00\x10tRNS\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x00\xE0#]\x19\x00\x00\x02lIDATx⁄Ïñ€í§ \x0C\x86\x03Ñ≥8\xEF\xFF∂õ\x10\x0EÍ∂„\tœVm¡Ö\x85(ÌG\xF2\xFFI√◊?\x1F\xB0\x10\x16¬BX\x08\x0B\xE1\x7FBH:}\x10\x01\x0FS\x7F∑KÅ˙ ÇÜq\xC0\x02É«BæE00Ü~\x0BÇÇÿßn\xD0\x18p˜QöÜÖ@◊Ú\x16\x84\x0Cvûn\x1B\xF1(\x0Fâ–`\xDE'G\xD7\x7F,Rds_Ûø\x890Nl]\xFFRæ‰·”\x08\x1E\x82\x18\x0FJn”É>~\x05°´\x7F£‡\x87>›Ÿ£E[\x1DMGHõkwG\x04T⁄ÖMdlî¨)%\x17•…1\x18Cà˛\x01!\xD6#"\x07?\xB5)+‘X\xD0\x04QW\x08AÉ”\x01Fx\x1AÇ∑`\xB5\x06\x08x\x88\x15@Ωê∂¬\x17íu6{í÷\x0BÑΩ\x1A°Ó\xAF\x1C≤‡≠Â}\x188"
+¨ÂO\x1A\xD73"\x08Y\x081\xD6\x0C^\x10h? ZV\x0FQ¿∫Er¿Ÿ†∞$ûô)M\x05\xED\x1Cæ[X\x10∂N¥Ò\x96\x0BB\x92\x14\xEE?\xE9\x11ú˙¶ƒƒˆ∞T%\xB1)S®‘\xA8\x18±ëU\x04\x1CŒ©\xDB/\x08^äçM?@`\x03(ÅÊ\x1Fı\wÁ∏\x0E\xAE\x1B\xD3\x11}V\x11Ã¨`\x0E˛Bh\x1DŒÇS¯Ñ¿±v\xAD?PD
+\xFF\x12ïh’«7\x08#…·\x0E\x81<„¿˘ßf\x1D ıH'àU\x15˛‘Çf\xA1(«D‰˘\x92(Fç˘D®Ÿ€û\x10HmΩC°µ\xA2\x02◊ãıæ≥Æ-∂«-Z"«Òí‚\x94(…ã\x805\x04y>Ñuã‡a\xF4*\xEE\x14J¬QΩN\x0E≠Bìs‡÷\xB3/\x08\xFD%rp\xAE	≈é\xD3\x10|\x15\xA3\x7F\x8E\x02\x9D&\xCE*—¸\x17IfèloN\x04uêDYx*MÙ∏$Eÿª\x08)(S\x80q\x1A\x02ïïh\x92;UÛ◊\x08Ò‡^€çF\x1F\xA4\x11[›ÛöÔ
+^
+t\xAA/i°∆\xC27¢Ω\x96\x08‰mg_æFáÚï&\x8D7G˙l^v&ziz\x0Eç…Wø]∑≠?\xF1\x0Ba!,ÑÖ\xB0\x10Ó∆\x1F\x01\x06\x00¿u5ÀV\xB3\x15Y\x00\x00\x00\x00IENDÆB`\x82
+$$$$$$ Response Body For Transaction With Id 11 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 12 ******
+GET /WebTours/welcome.pl?signOff=true HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 12 Ended $$$$$$
+
+****** Response Header For Transaction With Id 12 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 630
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Set-cookie: MTUserInfo=; path=/; expires=Thu, 08-Feb-2018 05:46:58 GMT
+Set-cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 12 Ended $$$$$$
+
+****** Response Body For Transaction With Id 12 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+      <!-- Home Frame -->
+      <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+   </frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 12 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 13 ******
+GET /WebTours/home.html HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 13 Ended $$$$$$
+
+****** Response Header For Transaction With Id 13 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: text/html
+Content-length: 1322
+Last-modified: Tue, 08 May 2007 15:40:23 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 13 Ended $$$$$$
+
+****** Response Body For Transaction With Id 13 ******
+<HTML>
+<HEAD>
+	<title>Web Tours</title>
+</head>
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #003366}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+<body bgcolor=#e0e7f1>
+<BR>
+<BR>
+<BR>
+<br >
+<table border=0>
+<tr><td></td></tr>
+<TR><TD></TD></TR>
+<TR><TD>
+<blockquote>
+<H1><b>Web Tours</b></H1>
+Welcome to the Web Tours site.
+<br>
+To make reservations,please enter your account information to the left.
+<br>
+If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources.
+<br>
+To configure the server options, use <A href="admin.pl" target=body ><b>administration</b></A> link.
+<br><br><br><br><br><br>
+<br><small>
+This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imatix.com" target=new><B><small>iMatix Corporation</small></B></A> 
+</small>
+</blockquote></TD>
+<TD></TD></TR>
+</table>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 13 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 14 ******
+GET /WebTours/nav.pl?in=home HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 14 Ended $$$$$$
+
+****** Response Header For Transaction With Id 14 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2645
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Expires: Thu, 08 Feb 2018 05:46:58 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 14 Ended $$$$$$
+
+****** Response Body For Transaction With Id 14 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<script language=Javascript src=/WebTours/JSFormSubmit.js> <!--- 
+ //Form submit is ON 
+ --> </script>
+<script language=JavaScript> <!---
+// This JavaScript will uses it's own write methods to display all the HTML code.
+// This means that the HTML code is generated on the client side - not the server side.
+// In some cases, if there was some calculation done to create the HTML, there could
+// problems discovering what the HTML actually is.  To examine those problems in more 
+// detail, look into the other Server Options --> set/change URLs and calculating 
+// data before it is put into a hidden field.
+
+
+
+document.writeln ("<style>")
+document.writeln ("blockquote {font-family: tahoma; font-size : 10pt}")
+document.writeln ("H1 {font-family: tahoma; font-size : 22pt; color: #993333}")
+document.writeln ("H3 {font-family: tahoma; font-size : 10pt; color: black}")
+document.writeln ("small {font-family: tahoma; font-size : 8pt}")
+document.writeln ("</style>")
+document.writeln ("<form method=post action=error.pl  onSubmit='doJSFormSubmit1(this)' target=body>")
+document.writeln ("<input type=hidden name=userSession value=122977.336411503zDcfztzpHtVzzzzHDHQfDpiiAtf>")
+document.writeln ("<table border=0><tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;</td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;</td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><small>&nbsp;Username</small></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=text name=username value='' size=14 maxlength=14></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><small>&nbsp;Password</small></td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=password name=password value='' size=14 maxlength=14></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;<tr><td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=image name=login value=Login alt=Login border=1 ")
+document.writeln ("src='/WebTours/images/mer_login.gif'>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("</table><input type=hidden name=JSFormSubmit value='off'>")
+document.writeln ("</form>")
+//  --></script>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 14 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+		The Node is NULL
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 15 ******
+GET /WebTours/JSFormSubmit.js HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 15 Ended $$$$$$
+
+****** Response Header For Transaction With Id 15 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: application/x-javascript
+Content-length: 291
+Last-modified: Tue, 26 Oct 2004 12:18:07 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 15 Ended $$$$$$
+
+****** Response Body For Transaction With Id 15 ******
+
+function doJSFormSubmit1(theForm) {
+
+	theForm.action = "login.pl";
+	theForm.JSFormSubmit.value = "on";
+	theForm.submit();
+
+	return false;
+}
+
+
+function doJSFormSubmit2(theForm) {
+
+	theForm.action = "reservations.pl";
+	theForm.JSFormSubmit.value = "on";
+	theForm.submit();
+
+	return false;
+}
+
+
+$$$$$$ Response Body For Transaction With Id 15 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+		/WebTours/nav.pl?in=home
+		Form: name= action=error.pl
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 16 ******
+GET /WebTours/images/mer_login.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 16 Ended $$$$$$
+
+****** Response Header For Transaction With Id 16 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:58 GMT
+Content-type: image/gif
+Content-length: 679
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 16 Ended $$$$$$
+
+****** Response Body For Transaction With Id 16 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00”⁄‰æƒŒÃ“€√ ‘ÅÜãORU˜˜˜€‹ﬁ» Õﬁ‰Ó$&'⁄·Î¿«—‹„ÌÿﬂÈﬁÊ…–ŸŒ’ﬂ‡ÁÒ∆Õ◊÷›Ê€‚Ì—ÿ‚±∑ø†£ß;=@fin•´≤º√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x1A\x01Êùh™ÆlÎæp|b\x9C!ﬁá¨Ô|\x0F\x1F\xB8\x13¬v+\x1Aè»§r…l\x16\x82\x13\xD0 ˝p8\x01\x06c0ò@\x04\x91\x08\x00@q,\x1AâÑ§√nªﬂ∏\xDC-I7\x16\x0E\xCA8,\x80L∏Z\x01W\x1F	'\x06\x08\x1E\x08VWY[]\x10\x10a\x16dfh\x0Fko\x04\x10ss\x18\x17úl\x12\x0F	wy\x00\x16a\x90\x7F\x03ÅW\x1C\x1FQ\x1C&$Æç\\^ëb\x94\x0B\x15	óp
+ü†p\x04\x1E√¢	\x15xz\x00©~\x80\x0CÇåT&\x1E\x1F“XY]^`\x11ìeºæòn¡p\x10¬m\x1C\x10\x14\x1C\x1DÍmêq» ¶®\x11}\x13\x7F—ÿ\x01\x1F)◊µ¥‹\xFA"ió•qm π—ê°@Üv\x1D\x18:,–°\x00\x81\x0E
+\x1Cf\xD0\x00\x07Y)=ˆA„Á\x0F\x05@F\xDA\x1E\xFF	\x10`·[%q¿–u¿êÅB\x07\x0F\x19nRÏ@\x80¢E\x8C\x17\x01(\x80ÿ∆„≤S\x16V>\xE3\x12\x80\xE4?~\x02U\x16\x04◊Î\xD7\x1BÖl4\\d\xA3\x00ÇV6\x17|^T\x885\xD4(z \xF9,m≈®‰âìX¢rõ˙\xD2*9ô_πN»ªA,Fae;\x18≠ßv\x15[,n≠Au4◊õAòWe“¥ÈÅ\xE2\x05\x05\x1B¬˙%+S®èß
+è¨\x95\x18\xAE-ï`\\Ü≥õPÅÎ\x8C<\x0B\x14\xD0\x00±ØÜ \x15\xC7\x02\xEE<\xEF(*•Ü£ëû·\x81\x16J\xC6\x04\x1DS\x85<ÏM_6\x0486˜úÃ∑hVMkQ„êhQ\\‰©UWE8ΩÉÖâ\x19\x02îÔ]Ô˜Z·É\xA2\x0C©¬H`æ‰cñ≥.œÜCÁcg\x1D’Ã=~\xE8\x03\x1F!Ü|êC$"D8·‡\x83\x10Fx\x03\x14Uà∞\xA0\x0F\x18f®·
+@<Å@5\x1B\x86(\xA2\x0B\x18\x0CqC\x08\x00;
+$$$$$$ Response Body For Transaction With Id 16 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+		/WebTours/nav.pl?in=home
+		Form: name= action=error.pl
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 17 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 17 Ended $$$$$$
+
+****** Response Header For Transaction With Id 17 ******
+HTTP/1.1 404 Not found
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:46:59 GMT
+Connection: Close
+Content-length: 114
+Content-type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 17 Ended $$$$$$
+
+****** Response Body For Transaction With Id 17 ******
+<HTML><TITLE>Error</TITLE><BODY><H1>
+
+The URL you asked for does not exist on this website
+
+</H1></BODY></HTML>
+
+$$$$$$ Response Body For Transaction With Id 17 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+		/WebTours/nav.pl?in=home
+		Form: name= action=error.pl
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 22 ******
+POST /WebTours/login.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Content-Length: 123
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 22 Ended $$$$$$
+
+****** Request Body For Transaction With Id 22 ******
+userSession=122977.336411503zDcfztzpHtVzzzzHDHQfDpiiAtf&username=andy&password=123456&JSFormSubmit=on&login.x=49&login.y=19
+$$$$$$ Request Body For Transaction With Id 22 Ended $$$$$$
+
+****** Response Header For Transaction With Id 22 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 437
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Expires: 5s
+Set-cookie: MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 22 Ended $$$$$$
+
+****** Response Body For Transaction With Id 22 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scrolling=auto>
+<frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=auto>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 22 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/
+	/WebTours/header.html
+	/WebTours/welcome.pl?signOff=true
+		/WebTours/nav.pl?in=home
+		Form: name= action=error.pl
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 22 ****** (Location Flag : tFlagInsertEnd, Location ID : 22)
+	web_submit_data("login.pl",
+		"Action=http://127.0.0.1:1080/WebTours/login.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=122977.336411503zDcfztzpHtVzzzzHDHQfDpiiAtf", ENDITEM,
+		"Name=username", "Value=andy", ENDITEM,
+		"Name=password", "Value=123456", ENDITEM,
+		"Name=JSFormSubmit", "Value=on", ENDITEM,
+		"Name=login.x", "Value=49", ENDITEM,
+		"Name=login.y", "Value=19", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 22 Ended $$$$$$
+
+****** Request Header For Transaction With Id 25 ******
+GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 25 Ended $$$$$$
+
+****** Response Header For Transaction With Id 25 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1446
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Expires: Thu, 08 Feb 2018 05:47:07 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 25 Ended $$$$$$
+
+****** Response Body For Transaction With Id 25 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/flights.gif 
+ALT="Search Flights Button"></A>
+<br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/itinerary.gif 
+ALT="Itinerary Button"></A>
+<br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/in_home.gif 
+ALT="Home Button"></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/signoff.gif 
+ALT="SignOff Button"></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 25 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 28 ******
+GET /WebTours/images/flights.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 28 Ended $$$$$$
+
+****** Response Header For Transaction With Id 28 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Content-type: image/gif
+Content-length: 726
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 28 Ended $$$$$$
+
+****** Response Body For Transaction With Id 28 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18òö\x1D\x08ΩΩ\x1B\x04\x04\x0E\x08
+p\xC1	m\x0B\x04ùü	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1FÿWZ]^`∂∏∫l\x19\x08}\x19\xC5\x02\x04\x0C≈pÌm\x14\x1A\x08Ã†œy“}\x7F\x16Å©\x8E>§Ë\x16\x0B\\§q\x0Bn=∏î\xA9\x02	n\x821∞WœW\x07\x02\x02z-ÎÂ\x01BF\x04\x1E\xE04ªÛ ⁄¥~÷º\xFF\x01\x10àÇ\xA0#É‚(\xDD2É¶a\x07tæB∂õò†\x9D\x02\x02\xF62ZÿÄ\x80\x02\xD0\x06\xF5&\x04\x13	JîI~\x80R∆by\xC2%\x16ò_d*XòÀ&\xAF\x1A4\x0C∏Ë.]\xBA4\x08\x94\x11∏¿k\x01\xD1\x0E\x0B4N`ÍåA…}~¢¢\xBA6u†J\xAC\x08…–4w\x13\x01\x047Ì–\xA1;\x17tŸ‚z\x1D\x12D–ãÆSRyO\x01ƒBï€_H1\xC9ˆö.bY	\x08\x08$\x00öA"\xAF\x0C\x1B\x04@àù\x81\x03\x82\x07oFB√ãrØ ŒVe\x1D§D\x86+·≈\x88	,∂‡´q\xE1\x0E\xB6\x05‡LM˜YIÃΩ7ØúÒÍÛ¨¨b\x043Ë∫K\x01\x038	\x14` †AAÉ“\x91;òÔ¿\x01\x1B\x05\x0BêÂ\xC6\x07ª^Ì⁄\x00∞H#W\x81\x06^%fê◊IS\x07\x10P¶—Çr4ìè\x1E'˝«W!Q\x0CQ≈K[¯s†x
+BX\x02\x00ˆAX]\x7F\x15˙„[!áºÚA\x0E\x8B\x10·ƒ\x8C4÷h\xE3PT!\x02\x8C>ÙË„è+\x00Òƒ\x01\xDB\x00i‰ë.l0\xC4!\x00\x00;
+$$$$$$ Response Body For Transaction With Id 28 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 31 ******
+GET /WebTours/images/in_home.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 31 Ended $$$$$$
+
+****** Response Header For Transaction With Id 31 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Content-type: image/gif
+Content-length: 688
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 31 Ended $$$$$$
+
+****** Response Body For Transaction With Id 31 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18òön\x08
+mΩù¡l\x9F	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1FœWZ]^`∂∏∫o\x19\x08mﬂ¬¬ƒ∆y…}\x7F\x16Å©\x8E\x1F)‘±◊ë\xDA\x0B\xB7\x0Fóôp\x08\x19ø˝\x04\x08\x10\x08Ë¿A@@\x01\x1E\x02zË†·`\xBF7ƒÓ<@¶L]≥j\x00ﬁ°àÁh^6J∑Ã†—ÁÊ[¿ì\x0C\x11\xFFh\x00\x80`\xC3\x06\x95\x03\x04.\x00ò@\xE5\x04\x01\x04‡D<ÜŒ\x0F†ã\xB14û‡à≈\xE3\x17\x90
+Â"…k\x83\x06/3\x10\x18ÿÅ\x00Åó\x10:¥Ï≤·Ip\x10A\x19õÿ\xD3"*gA·a4Zèå»n%\x11dÌÉU68\x1BvH `C óN5p\xD0	Jîû\x8A?œb\x14:m-§è€ﬁ2ı˜KBC\x001]Ç›∫A\x00Ñ≠8\x13\x84\xC5\x13Ò©vX\x18\x13ïE\x8F\x12\x19•p√Å\xA5\x0B\xD6 ÇúùŸ®‰\x8A\x00C¬Ä\x0FÈàe0ëîœ”h›ÕxÂx÷Q1n\x19,›’F\x01ÉÍ\xD7;`X`&9\x0C\x16\x88&\\Ïòq≥®kx†±®Q—«\xCF+ôô>Ææß·£L\x03-\x14eHïé[\xAC\x13_tÙŸg†pÂÂ\x97\x0E- \xEC$g\x08"\x1F‰∞\x08\x11NTh·Ö\x18\xDE\x00E\x15"HË√\x87 Ü∏\x02\x10O\x1C çà(¶Ë\xC2\x06C\xDC\x10\x02\x00;
+$$$$$$ Response Body For Transaction With Id 31 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 32 ******
+GET /WebTours/images/signoff.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 32 Ended $$$$$$
+
+****** Response Header For Transaction With Id 32 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Content-type: image/gif
+Content-length: 751
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 32 Ended $$$$$$
+
+****** Response Body For Transaction With Id 32 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18òk\x1E\x08\xBD\x02l\x08
+ùn\x0B\x02\xBD\x08\x1El\x0B\xBD\x04\xBD\x13\xA0\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1F⁄WZ]^`∂∏\xBA\x1C\x08\x1A\x19\xC8\x0C¬√m\x08\x02\x03\x13\x1B\x08\x1B\x1D\xF7\x12\x04\x02
+\x9F	¢Â°÷ÁèÖ@\xA9\x1C}H\xF1-ñ∏H\xE5\x16‹zp)\x93\x06\x04\x16\xD8\x04ÍÄ†C1_\x1A4\x18ÎÂÊû\x1B^\x1C\x8F\xFF! \xD0\x01‘ù\x07”™\x19\xC4\x06\x0E¿B\x14\x1D=$GÈñ\x194\x99(\x18\x13@`@\x07\x06\x1DõY‡µ·û\x06\x0BÍÿ` ¿≤\x8D\x02\x04\x14öm\x10 \xC0\x02@Q1\x0B\x02\xA2\x19ÎÊâúXv~È©\x80bÆLl\xA2\x18K\x86 CTéM\x11$‡®AS\xBF7uMRU\x03\x8D\x01LÇ~∆¢ VñaM\xB5\x11…¸\xC4\x04¡C\xD5\x0EºÏB\x10\x90\x0FÔE`\x9D)òlÉrk\x07\xA2\x1DæJ#ï¯TB,f\xBD=Üƒ”‹‰L\x03êu®@\x14B›~\x19.6\x15∞Ü≥õy\x13Ù·\x83 \x98\x00\x03\xD5\x03e*~m”±C⁄k≈êq´À\x01/_a:2\x18©n4>7
+\xC8'Î\x195¿h0Yœ\\\Û¶	X:±G>\x07∑ÂûΩ\x1D(¿¿	
+\\’◊&\x14(\x90\x01l\x03r\x10\x16–j“π∆ÿ6\x1E–∞H#iÈGâd\x0Cº•\x89\x1C\x00\x1CC\\<\x08\x166JÑd\x15\x12\xC5\x10U\xE47Nvïò\xE1!'\x12l\xA0\x01\x80$ Ò\x1EÑb\x1DD_!áºÚA\x0E\x8B\x10·ƒëH&©‰PT!\x02\x91>D)Âî+\x00Òƒ\x01›P©Â\x96.l0\xC4!\x00\x00;
+$$$$$$ Response Body For Transaction With Id 32 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 33 ******
+GET /WebTours/images/itinerary.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 33 Ended $$$$$$
+
+****** Response Header For Transaction With Id 33 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Content-type: image/gif
+Content-length: 733
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 33 Ended $$$$$$
+
+****** Response Body For Transaction With Id 33 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18\x98\x14\x08
+\x1D\x04	\x1B\x08ù√r\x9F	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1F—WZ]^`∂∏\x98\x12\xC2\x13¬ƒ‰p∆»yÀ}\x7F\x16Å©\x8E\x1F)÷±Ÿë\xDC\x0B\xB7\x0Fóô\x08\x19\x02\x08\x028\x08\xE8 \xE0\x1F\x02\x0Fl\x0C"Ù/ Çá\x08\x0B>‹¿\x86\x00Bcw\x1E(c∆Ó\xD95\x00ÒPÃsTo\x1B•[f\xD0\xFF@\x00\xD7!\x98\x06\x08(\x14\\@``\xCD\x050!\x10@ I\x00\x01	;e
+\x88\x10¨É\x02\x04\x16:`L¶Œ\x0F è±B\x9E\x18â•‰ó\x93
+ÙÂ‚ó°C\xBF\x02vQ,˙∞\xEC\x06\x02\x04 \xB09\x0B\x10\x02\x02J\xDF\x06c\xA0\x14\x142çM;¢Ç\x16UﬁG´˜»§\xFC&,\x830\xB2\x14s˙‘∞a\xC3\x04ül\x1E\xA2\x15ÜÄbÇö\x02\x10\xD6ïåî”SÔ∞H≠ˆ\x17í…nÉπz\xCD\x00\x16ÇÄ\xB1\x02t
+»¿\xA1\x1FZ\xBA\x08\x00\xF8\x13ˆöÕÇ\x87\x11\xD8,M«ÒÈﬁè£© ≤GâåV¬F'∆|€RX\x00\x85\x04	tH`üWäF\x0B\xB69«@£gΩ°AŒxUz÷U1\x82\x19l•†\x80n®M	ˆ\hìÄÕÖ
+r\x1C‰ÄpvuV\x1Ch|I\xE3\x01Z\x8B4RïiÔUb∆|ÂT8¿Cj\x11xåÅ\xEB\x18\x17\x1A+ãP\xE1\x01\x10$m—NÑÒQXa9é—Q\xE0(\x07∫ì\xA0!à|êCàN‰®„é<\x1A\x01E\x15"‹Ë√êD\x16\xB9\x02\x10O\x1C@çëL6È¬\x06C\xDC\x10\x02\x00;
+$$$$$$ Response Body For Transaction With Id 33 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 34 ******
+GET /WebTours/login.pl?intro=true HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/login.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 34 Ended $$$$$$
+
+****** Response Header For Transaction With Id 34 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:08 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 912
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:07 GMT
+Expires: 5s
+
+
+$$$$$$ Response Header For Transaction With Id 34 Ended $$$$$$
+
+****** Response Body For Transaction With Id 34 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>andy</b>, to the Web Tours reservation pages.<BR>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 34 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 35 ******
+GET /WebTours/welcome.pl?page=search HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 35 Ended $$$$$$
+
+****** Response Header For Transaction With Id 35 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:11 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 560
+Content-type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 35 Ended $$$$$$
+
+****** Response Body For Transaction With Id 35 ******
+<!-- 
+ User has returned to the search page.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?page=menu&in=flights name=navbar 
+            marginheight=2 marginwidth=2 noresize scrolling=auto>
+      <!-- Reservation Frame -->
+      <frame src=reservations.pl?page=welcome name=info 
+            marginheight=2 marginwidth=2 noresize scrolling=auto>
+   </frameset>
+
+$$$$$$ Response Body For Transaction With Id 35 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/login.pl
+	/WebTours/nav.pl?page=menu&in=home
+	/WebTours/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 35 ****** (Location Flag : tFlagInsertEnd, Location ID : 35)
+	web_url("Search Flights Button",
+		"URL=http://127.0.0.1:1080/WebTours/welcome.pl?page=search",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 35 Ended $$$$$$
+
+****** Request Header For Transaction With Id 36 ******
+GET /WebTours/reservations.pl?page=welcome HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?page=search
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 36 Ended $$$$$$
+
+****** Response Header For Transaction With Id 36 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 4349
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:11 GMT
+Expires: Thu, 08 Feb 2018 05:47:11 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 36 Ended $$$$$$
+
+****** Response Body For Transaction With Id 36 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+
+
+<!--- JSVerification Server Option -->
+<script src=/WebTours/chooseFlightValidate.js>document.write("Included JS file not found")</SCRIPT><form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit=" return validateForm(this);" name="DestForm">
+<input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"><tr><td align="left">Departure City :</td> <td><select name="depart" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departDate" value="02/10/2018" size="10" maxlength="10" /> 
+<!-- Departure Date Applet -->
+<APPLET CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=2>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate" value="02/11/2018" size="10" maxlength="10" /> 
+<!-- Return Date Applet -->
+<APPLET CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Return Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=4>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="numPassengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="checkbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name="seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="None" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType" value="Business" />Business</label><br /> <label><input type="radio" name="seatType" value="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <tr><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/images/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input type="hidden" name=".cgifields" value="seatPref"  /></div></form>
+</blockquote>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 36 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 37 ******
+GET /WebTours/nav.pl?page=menu&in=flights HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?page=search
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Header For Transaction With Id 37 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1446
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:11 GMT
+Expires: Thu, 08 Feb 2018 05:47:11 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Body For Transaction With Id 37 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/in_flights.gif 
+ALT="Search Flights Button"></A>
+<br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/itinerary.gif 
+ALT="Itinerary Button"></A>
+<br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/home.gif 
+ALT="Home Button"></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/signoff.gif 
+ALT="SignOff Button"></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 37 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		The Node is NULL
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 38 ******
+GET /WebTours/chooseFlightValidate.js HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 38 Ended $$$$$$
+
+****** Response Header For Transaction With Id 38 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Content-type: application/x-javascript
+Content-length: 12036
+Last-modified: Tue, 26 Oct 2004 12:18:07 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 38 Ended $$$$$$
+
+****** Response Body For Transaction With Id 38 ******
+// check for IE3
+var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);
+
+
+/***************************************************************
+** define and instantiate validation objects
+** the validation object accepts the following parameters:
+**
+**   realName: name used in the alerts (same as label on the page)
+**
+**   formEltName: this must be the name of the corresponding
+**       HTML form element; make it the same as the object name
+**
+**   eltType: element type (we have to create this since IE3
+**       doesn't support the type property for for elements)
+**     text
+**     textarea
+**     checkbox
+**     radio
+**     select
+**
+**   uptoSnuff: function call that's evaluated during validation check
+**     isText(str)
+**     isSelect(formObj)
+**     isRadio(formObj)
+**     isCheck(formObj, form, [index of first checkbox in group],
+**         [number of checkboxes])
+**     isEmail(str)
+**     isState(str)
+**     isZipCode(str)
+**     isPhoneNum(str)
+**     isDate(str)
+**
+**   format: text representation of required format;
+**       pass 'null' if no required format;
+**       used in alert as an aid to user
+***************************************************************/
+
+// object definition
+function validation(realName, formEltName, eltType, upToSnuff, format) {
+  this.realName = realName;
+  this.formEltName = formEltName;
+  this.eltType = eltType;
+  this.upToSnuff = upToSnuff;
+  this.format = format;
+}
+
+/***************************************************************
+** create a new object for each form element you need to validate
+** for example:
+** var lastName = new validation('last name', 'lastName', 'text', 'isText(str)', null);
+** var phoneNum = new validation('phone number', 'phoneNum', 'text', 'isPhoneNum(str)', 'xxx-xxx-xxxx');
+** var reason = new validation('reason for reading this', 'reason', 'checkbox', 'isCheck(formObj, form, 14, 3)', null);
+***************************************************************/
+// create objects here:
+
+
+var departDate = new validation('departure date', 'departDate', 'text', 'isDate(str)', 'mm/dd/yyyy');
+var returnDate = new validation('return date', 'returnDate', 'text', 'isDate(str)', 'mm/dd/yyyy');
+var numP = new validation('number of passengers', 'numPassengers', 'text', 'isPosNumber(str)', null);
+
+
+
+
+/***************************************************************
+** Define the elts array:
+** Add a new item to the array for each object you create above
+** Make sure the value of the array element is the same as
+** the name of the object, and that the array elements are listed
+** in the same order the corresponding objects appear in the form
+** (it's more clear to the user that way)
+** for example:
+** var elts = new Array(lastName, phoneNum, reason)
+***************************************************************/
+var elts = new Array(departDate, returnDate, numP);
+
+
+/***************************************************************
+** The main function keeps track of which fields the user missed
+** or filled in incorrectly, and alerts the user so they can go
+** back and fix what's wrong.
+** Set allAtOnce to true if you want this "validation help" to
+** alert the user to all mistakes at once; set it to false if
+** you want it to show one mistake at a time
+***************************************************************/
+var allAtOnce = true;
+
+
+/***************************************************************
+** change text for alerts here
+** unspecified field (text): "Please include [field name]."
+** unspecified field (other): "Please choose [field name]."
+** invalid text field entries: "[field value] is an invalid [field name]!"
+** help with format: "Use this format: "
+***************************************************************/
+var beginRequestAlertForText = "Please include ";
+var beginRequestAlertGeneric = "Please choose ";
+var endRequestAlert = ".";
+var beginInvalidAlert = " is an invalid ";
+var endInvalidAlert = "!";
+var beginFormatAlert = "  Use this format: ";
+
+
+/***************************************************************
+** these functions validate the string or form object passed in,
+** and return true or false based on whether the test succeeds or fails
+**
+** validate existence of input
+**   isText(str): verifies text input or textarea is not empty
+**   isSelect(formObj): verifies item from a select menu is chosen
+**   isRadio(formObj): verifies one of a group of radio buttons is chosen
+**   isCheck(formObj, form, [begin], [num]): verifies at least one
+**       of a group of checkboxes is checked
+**     for [begin], fill in the index number in the elements array
+**         of the first checkbox (remember to start counting from zero)
+**     for [num], fill in the number of checkboxes in the group
+**
+** validate text in text input or textarea matches pattern
+**   isEmail(str): verifies email address (contains "@" and ".")
+**   isState(str): verifies U.S. State Code
+**   isZipCode(str): verifies zip code of form xxxxx or xxxxx-xxxx
+**   isPhoneNum(str): verifies phone number of form xxx-xxx-xxxx
+**   isDate(str): verifies date of form mm/dd/yyyy
+***************************************************************/
+
+function isText(str) {
+  return (str != "");
+}
+
+function isSelect(formObj) {
+  return (formObj.selectedIndex != 0);
+}
+
+function isRadio(formObj) {
+  for (j=0; j<formObj.length; j++) {
+    if (formObj[j].checked) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isCheck(formObj, form, begin, num) {
+  for (j=begin; j<begin+num; j++) {
+    if (form.elements[j].checked) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isEmail(str) {
+  return ((str != "") && (str.indexOf("@") != -1) && (str.indexOf(".") != -1));
+}
+
+function isState(str) {
+  str = str.toUpperCase();
+  return ( (str == "AK") || (str == "AL") || (str == "AR") || (str == "AZ") || (str == "CA") || (str == "CO") || (str == "CT") || (str == "DC") || (str == "DE") || (str == "FL") || (str == "GA") || (str == "HI") || (str == "IA") || (str == "ID") || (str == "IL") || (str == "IN") || (str == "KS") || (str == "KY") || (str == "LA") || (str == "MA") || (str == "MD") || (str == "ME") || (str == "MI") || (str == "MN") || (str == "MO") || (str == "MS") || (str == "MT") || (str == "NB") || (str == "NC") || (str == "ND") || (str == "NH") || (str == "NJ") || (str == "NM") || (str == "NV") || (str == "NY") || (str == "OH") || (str == "OK") || (str == "OR") || (str == "PA") || (str == "RI") || (str == "SC") || (str == "SD") || (str == "TN") || (str == "TX") || (str == "UT") || (str == "VA") || (str == "VT") || (str == "WA") || (str == "WI") || (str == "WV") || (str == "WY") );
+}
+
+function isZipCode(str) {
+  var l = str.length;
+  if ((l != 5) && (l != 10)) { return false }
+  for (j=0; j<l; j++) {
+    if ((l == 10) && (j == 5)) {
+      if (str.charAt(j) != "-") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+  return true;
+}
+
+function isPhoneNum(str) {
+  if (str.length != 12) { return false }
+  for (j=0; j<str.length; j++) {
+    if ((j == 3) || (j == 7)) {
+      if (str.charAt(j) != "-") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+  return true;
+}
+
+function isPosNumber(str) {
+  if ( (str.length == 0) || (str.charAt(0) == "0")) { return false }
+  for (j=1; j < str.length; j++) {
+    if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+  }
+  return true;
+}
+
+function isDate(str) {
+  if (str.length != 10) { return false }
+
+  for (j=0; j<str.length; j++) {
+    if ((j == 2) || (j == 5)) {
+      if (str.charAt(j) != "/") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+
+  var month = str.charAt(0) == "0" ? parseInt(str.substring(1,2)) : parseInt(str.substring(0,2));
+  var day = str.charAt(3) == "0" ? parseInt(str.substring(4,5)) : parseInt(str.substring(3,5));
+  var begin = str.charAt(6) == "0" ? (str.charAt(7) == "0" ? (str.charAt(8) == "0" ? 9 : 8) : 7) : 6;
+  var year = parseInt(str.substring(begin, 10));
+
+  if (day == 0) { return false }
+  if (month == 0 || month > 12) { return false }
+  if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+    if (day > 31) { return false }
+  } else {
+    if (month == 4 || month == 6 || month == 9 || month == 11) {
+      if (day > 30) { return false }
+    } else {
+      if (year%4 != 0) {
+        if (day > 28) { return false }
+      } else {
+        if (day > 29) { return false }
+      }
+    }
+  }
+  return true;
+}
+
+
+/***************************************************************
+** The validateForm() function validates the form elements
+** previously defined as validation objects and as members of
+** the elts array. We loop through the elts array, testing each
+** element in turn, and alerting the user when they've missed
+** a required field
+***************************************************************/
+
+function validateForm(form) {
+  var formEltName = "";
+  var formObj = "";
+  var str = "";
+  var realName = "";
+  var alertText = "";
+  var firstMissingElt = null;
+  var hardReturn = "\\r\\n";
+
+  for (i=0; i<elts.length; i++) {
+    formEltName = elts[i].formEltName;
+    formObj = eval("form." + formEltName);
+    realName = elts[i].realName;
+
+    if (elts[i].eltType == "text") {
+      str = formObj.value;
+
+      if (eval(elts[i].upToSnuff)) continue;
+
+      if (str == "") {
+        if (allAtOnce) {
+          alertText += beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+          if (firstMissingElt == null) {firstMissingElt = formObj};
+        } else {
+          alertText = beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+          alert(alertText);
+        }
+      } else {
+        if (allAtOnce) {
+          alertText += str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;
+        } else {
+          alertText = str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;
+        }
+        if (elts[i].format != null) {
+          alertText += beginFormatAlert + elts[i].format + hardReturn;
+        }
+        if (allAtOnce) {
+          if (firstMissingElt == null) {firstMissingElt = formObj};
+        } else {
+          alert(alertText);
+        }
+      }
+    } else {
+      if (eval(elts[i].upToSnuff)) continue;
+      if (allAtOnce) {
+        alertText += beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;
+        if (firstMissingElt == null) {firstMissingElt = formObj};
+      } else {
+        alertText = beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;
+        alert(alertText);
+      }
+    }
+    if (!isIE3) {
+      var goToObj = (allAtOnce) ? firstMissingElt : formObj;
+      if (goToObj.select) goToObj.select();
+      if (goToObj.focus) goToObj.focus();
+    }
+    if (!allAtOnce) {return false};
+  }
+  
+    dateString = form.departDate.value;
+  	dateArray = dateString.split("/");
+  	departDay = new Date(parseInt(dateArray[2], 10), 
+                     parseInt(dateArray[0],10)-1, 
+                      parseInt(dateArray[1],10));
+  	dateString = form.returnDate.value;
+  	dateArray = dateString.split("/");
+  	returnDay = new Date(parseInt(dateArray[2], 10), 
+                     parseInt(dateArray[0],10)-1, 
+                      parseInt(dateArray[1],10));
+  	today = new Date();
+  	
+  	if (departDay.getTime() < today.getTime()) {
+  		alertText += "Departure date needs to be later." + hardReturn;
+  	}
+  	if (returnDay.getTime() < departDay.getTime()) {
+  		alertText += "Return date must be after departure date." + hardReturn;
+  	}
+  	
+  	if (form.arrive.selectedIndex == form.depart.selectedIndex) {
+  		alertText += "Departure and arrival cities must be different." + hardReturn;
+  	}
+  	
+  if (allAtOnce) {
+    if (alertText != "") {
+      alert(alertText);
+      return false;
+    }
+  } 
+//  alert("I am valid!"); //remove this line when you use the code
+  return true; //change this to return true
+}
+
+
+
+$$$$$$ Response Body For Transaction With Id 38 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		/WebTours/nav.pl?page=menu&in=flights
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 39 ******
+GET /WebTours/images/home.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Header For Transaction With Id 39 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Content-type: image/gif
+Content-length: 688
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Body For Transaction With Id 39 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18òön\x08
+mΩù¡l\x9F	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1FœWZ]^`∂∏∫o\x19\x08mﬂ¬¬ƒ∆y…}\x7F\x16Å©\x8E\x1F)‘±◊ë\xDA\x0B\xB7\x0Fóôp\x08\x19ø˝\x04\x08\x10\x08Ë¿A@@\x01\x1E\x02zË†·`\xBF7ƒÓ<@¶L]≥j\x00ﬁ°àÁh^6J∑Ã†—ÁÊ[¿ì\x0C\x11\xFFh\x00\x80`\xC3\x06\x95\x03\x04.\x00ò@\xE5\x04\x01\x04‡D<ÜŒ\x0F†ã\xB14û‡à≈\xE3\x17\x90
+Â"…k\x83\x06/3\x10\x18ÿÅ\x00Åó\x10:¥Ï≤·Ip\x10A\x19õÿ\xD3"*gA·a4Zèå»n%\x11dÌÉU68\x1BvH `C óN5p\xD0	Jîû\x8A?œb\x14:m-§è€ﬁ2ı˜KBC\x001]Ç›∫A\x00Ñ≠8\x13\x84\xC5\x13Ò©vX\x18\x13ïE\x8F\x12\x19•p√Å\xA5\x0B\xD6 ÇúùŸ®‰\x8A\x00C¬Ä\x0FÈàe0ëîœ”h›ÕxÂx÷Q1n\x19,›’F\x01ÉÍ\xD7;`X`&9\x0C\x16\x88&\\Ïòq≥®kx†±®Q—«\xCF+ôô>Ææß·£L\x03-\x14eHïé[\xAC\x13_tÙŸg†pÂÂ\x97\x0E- \xEC$g\x08"\x1F‰∞\x08\x11NTh·Ö\x18\xDE\x00E\x15"HË√\x87 Ü∏\x02\x10O\x1C çà(¶Ë\xC2\x06C\xDC\x10\x02\x00;
+$$$$$$ Response Body For Transaction With Id 39 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		/WebTours/nav.pl?page=menu&in=flights
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 40 ******
+GET /WebTours/images/in_flights.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Header For Transaction With Id 40 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Content-type: image/gif
+Content-length: 726
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Body For Transaction With Id 40 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18òö\x1D\x08ΩΩ\x1B\x04\x04\x0E\x08
+p\xC1	m\x0B\x04ùü	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1FÿWZ]^`∂∏∫l\x19\x08}\x19\xC5\x02\x04\x0C≈pÌm\x14\x1A\x08Ã†œy“}\x7F\x16Å©\x8E>§Ë\x16\x0B\\§q\x0Bn=∏î\xA9\x02	n\x821∞WœW\x07\x02\x02z-ÎÂ\x01BF\x04\x1E\xE04ªÛ ⁄¥~÷º\xFF\x01\x10àÇ\xA0#É‚(\xDD2É¶a\x07tæB∂õò†\x9D\x02\x02\xF62ZÿÄ\x80\x02\xD0\x06\xF5&\x04\x13	JîI~\x80R∆by\xC2%\x16ò_d*XòÀ&\xAF\x1A4\x0C∏Ë.]\xBA4\x08\x94\x11∏¿k\x01\xD1\x0E\x0B4N`ÍåA…}~¢¢\xBA6u†J\xAC\x08…–4w\x13\x01\x047Ì–\xA1;\x17tŸ‚z\x1D\x12D–ãÆSRyO\x01ƒBï€_H1\xC9ˆö.bY	\x08\x08$\x00öA"\xAF\x0C\x1B\x04@àù\x81\x03\x82\x07oFB√ãrØ ŒVe\x1D§D\x86+·≈\x88	,∂‡´q\xE1\x0E\xB6\x05‡LM˜YIÃΩ7ØúÒÍÛ¨¨b\x043Ë∫K\x01\x038	\x14` †AAÉ“\x91;òÔ¿\x01\x1B\x05\x0BêÂ\xC6\x07ª^Ì⁄\x00∞H#W\x81\x06^%fê◊IS\x07\x10P¶—Çr4ìè\x1E'˝«W!Q\x0CQ≈K[¯s†x
+BX\x02\x00ˆAX]\x7F\x15˙„[!áºÚA\x0E\x8B\x10·ƒ\x8C4÷h\xE3PT!\x02\x8C>ÙË„è+\x00Òƒ\x01\xDB\x00i‰ë.l0\xC4!\x00\x00;
+$$$$$$ Response Body For Transaction With Id 40 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		/WebTours/nav.pl?page=menu&in=flights
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 41 ******
+GET /WebTours/images/button_next.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Header For Transaction With Id 41 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:12 GMT
+Content-type: image/gif
+Content-length: 758
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Body For Transaction With Id 41 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18\x19\x02\x08\xBC\x1Aùl\x1B\xBE\x08
+øo\x9F	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1F“WZ]^`∂∏\x08\x04\x03
+\x04\x08\xC5\x08\x1B\x0Cƒ≈t†…yÃ}\x7F\x16Å©\x8E\x1F)◊±⁄ë\xDD\x0B\xB7\x0F\x0C< `êÄ\x81\x0C\x1D\xC8!\x10–Å\xC3.^\x1D\x04\x96+Á·!\xC3\x13k E‰≈\xB0\x03\xA8;\x0F\x965\x93\x07\x1B\x80{(\xF2\xFF9⁄«ç“\xAD<\x04\x08dr\xA3\x01\x81\x06\x00\xE76ÿ¥`\x13'\x01\x06\x08\x12êã†S(\x81\x0E@;‘¥\x90\x01\x01ác¢D\xC6\x03T2\x16\xCA\x13*±∞¸‚R\x01@\x02\x02(h2\xD81¶N\x0C\x1DlRP\x8B \x03X6\x08\x16ºMÎñ\x17/\x02\x18\xDA1\x08	\xCF\x0FUT—¨\xE23πµ\x1F\x99\x0B\x0Ft\xCE\x14\xEA!&\x1B\x01\x04j¬›êvCS\x06\x8E/g\x1E\x08VÉÜ\xA0*#Â˜T=,W\xAD\x11Ü‘“õ\x19\x07\xE0\x10\x0E≠π%'\x82\x02\x1D\x04P÷Mwn[r\x1B3\xD4\x04∞‡ú«P ˙\x92\x04l2uVY\xFC(\x91\x01\x88!¬Cõè\xEF*Eê…&Ñ]51\x1Fmö`\x00G\x8D\x16;L\x08⁄Ù¡ÖsSM\x07\xB67„’ÍY\\\xC5\x1Cf\x80!\x14\x1F\x07n`∞¿\x03\x10»°\x00\x06
+\x10‰¿s\x1A	v@\x81\x02	\x00\xC4\x06\x03\x19¨A\xC1-\xB9,‡’H\x7FùV\x83\x074,“àV¨ÂW\x89\x19˝Õ¥Œär\x1C„é\x1E\x1C á+ãP\xE1\x01\x10+m1èâ˚•8\x16ã@≤·‚h1\xD23\x9F!à|êCçN4È‰ìP\x1A\x01E\x15",È√ïXf\xB9\x02\x10O\x1CPçñ`ÜÈ\xC2\x06C\xDC\x10\x02\x00;
+$$$$$$ Response Body For Transaction With Id 41 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		/WebTours/nav.pl?page=menu&in=flights
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 45 ******
+GET /WebTours/FormDateUpdate.class HTTP/1.1
+accept-encoding: gzip
+Cache-Control: no-cache
+Pragma: no-cache
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+If-Modified-Since: Mon, 08 Feb 2010 11:51:43 GMT
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 45 Ended $$$$$$
+
+****** Response Header For Transaction With Id 45 ******
+HTTP/1.1 304 Not modified
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:14 GMT
+Content-length: 0
+Content-type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 45 Ended $$$$$$
+
+****** Response Body For Transaction With Id 45 ******
+
+$$$$$$ Response Body For Transaction With Id 45 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/login.pl
+		/WebTours/nav.pl?page=menu&in=home
+		/WebTours/login.pl?intro=true
+	/WebTours/welcome.pl?page=search
+		/WebTours/nav.pl?page=menu&in=flights
+		/WebTours/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 45 ****** (Location Flag : tFlagInsertEnd, Location ID : 45)
+	web_url("FormDateUpdate.class",
+		"URL=http://127.0.0.1:1080/WebTours/FormDateUpdate.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 45 Ended $$$$$$
+
+****** Request Header For Transaction With Id 46 ******
+GET /WebTours/CalSelect.class HTTP/1.1
+accept-encoding: gzip
+Cache-Control: no-cache
+Pragma: no-cache
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+If-Modified-Since: Mon, 08 Feb 2010 11:51:43 GMT
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 46 Ended $$$$$$
+
+****** Response Header For Transaction With Id 46 ******
+HTTP/1.1 304 Not modified
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:14 GMT
+Content-length: 0
+Content-type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 46 Ended $$$$$$
+
+****** Response Body For Transaction With Id 46 ******
+
+$$$$$$ Response Body For Transaction With Id 46 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/FormDateUpdate.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 46 ****** (Location Flag : tFlagInsertEnd, Location ID : 46)
+	web_url("CalSelect.class",
+		"URL=http://127.0.0.1:1080/WebTours/CalSelect.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 46 Ended $$$$$$
+
+****** Request Header For Transaction With Id 47 ******
+GET /WebTours/Calendar.class HTTP/1.1
+accept-encoding: gzip
+Cache-Control: no-cache
+Pragma: no-cache
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+If-Modified-Since: Mon, 08 Feb 2010 11:51:43 GMT
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 47 Ended $$$$$$
+
+****** Response Header For Transaction With Id 47 ******
+HTTP/1.1 304 Not modified
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:14 GMT
+Content-length: 0
+Content-type: text/html
+
+
+$$$$$$ Response Header For Transaction With Id 47 Ended $$$$$$
+
+****** Response Body For Transaction With Id 47 ******
+
+$$$$$$ Response Body For Transaction With Id 47 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/CalSelect.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 47 ****** (Location Flag : tFlagInsertEnd, Location ID : 47)
+	web_url("Calendar.class",
+		"URL=http://127.0.0.1:1080/WebTours/Calendar.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 47 Ended $$$$$$
+
+****** Request Header For Transaction With Id 51 ******
+GET /WebTours/YearMonthPanel.class HTTP/1.1
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 51 Ended $$$$$$
+
+****** Response Header For Transaction With Id 51 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:23 GMT
+Content-type: */*
+Content-length: 1712
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 51 Ended $$$$$$
+
+****** Response Body For Transaction With Id 51 ******
+ ˛∫æ\x00\x03\x00-\x00p\x08\x00H\x08\x00R\x08\x00V\x08\x00W\x07\x00F\x07\x00K\x07\x00L\x07\x00X\x07\x00`\x07\x00a\x07\x00b\x07\x00c\x07\x00d\x07\x00e\x07\x00f\x07\x00g\x07\x00h\x07\x00i
+\x00
+\x00'
+\x00\x00'
+\x00\x0F\x00'
+\x00	\x00(
+\x00\x0E\x00)
+\x00\x05\x00*
+\x00\x05\x00+
+\x00\x0B\x00,
+\x00\x0B\x00-
+\x00
+\x00.	\x00\x0C\x00/	\x00\x08\x000
+\x00\x12\x001	\x00\x06\x002
+\x00\x11\x003
+\x00
+\x004
+\x00
+\x005
+\x00\x0B\x006	\x00\x0C\x007
+\x00\x12\x008\x0C\x00E\x009\x0C\x00E\x00<\x0C\x00E\x00C\x0C\x00S\x00;\x0C\x00T\x00;\x0C\x00[\x00>\x0C\x00[\x00D\x0C\x00\\\x00C\x0C\x00]\x00P\x0C\x00^\x00N\x0C\x00_\x00A\x0C\x00j\x00Y\x0C\x00k\x00B\x0C\x00l\x00;\x0C\x00l\x00C\x0C\x00m\x00@\x0C\x00n\x00P\x0C\x00o\x00:\x01\x00\x03()V\x01\x00\x15(I)Ljava/lang/String;\x01\x00\x04(I)V\x01\x00\x05(II)V\x01\x00\x11(LCalendar;IIII)V\x01\x00*(Ljava/awt/Component;)Ljava/awt/Component;\x01\x00%(Ljava/awt/Event;Ljava/lang/Object;)Z\x01\x00\x1B(Ljava/awt/LayoutManager;)V\x01\x00\x15(Ljava/lang/Object;)Z\x01\x00\x15(Ljava/lang/String;)I\x01\x00\x15(Ljava/lang/String;)V\x01\x00<(Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;\x01\x00\x06<init>\x01\x00\x08Calendar\x01\x00Calendar.java\x01\x00\x06Center\x01\x00\x04Code\x01\x00ConstantValue\x01\x00\x08DateInfo\x01\x00\x08DayPanel\x01\x00
+Exceptions\x01\x00
+LCalendar;\x01\x00\x0FLineNumberTable\x01\x00\x12Ljava/lang/Object;\x01\x00\x0ELocalVariables\x01\x00\x07Month: \x01\x00\x08SetMonth\x01\x00\x07SetYear\x01\x00
+SourceFile\x01\x00\x04West\x01\x00\x06Year: \x01\x00\x0EYearMonthPanel\x01\x00\x13[Ljava/lang/String;\x01\x00\x06action\x01\x00\x03add\x01\x00\x07addItem\x01\x00\x03arg\x01\x00\x08calendar\x01\x00\x06equals\x01\x00\x15java/awt/BorderLayout\x01\x00\x0Fjava/awt/Choice\x01\x00\x12java/awt/Container\x01\x00\x0Ejava/awt/Event\x01\x00\x13java/awt/FlowLayout\x01\x00\x0Ejava/awt/Label\x01\x00\x0Ejava/awt/Panel\x01\x00\x13java/lang/Exception\x01\x00\x11java/lang/Integer\x01\x00\x10java/lang/String\x01\x00	monthname\x01\x00\x08parseInt\x01\x00\x06select\x01\x00	setLayout\x01\x00\x06target\x01\x00\x07valueOf\x00 \x00\x08\x00\x0F\x00\x00\x00\x01\x00\x00\x00^\x00N\x00\x00\x00\x02\x00\x01\x00E\x00=\x00\x01\x00I\x00\x00\x01T\x00\x05\x00\x0C\x00\x00\x00\xE0*\xB7\x00\x15*+\xB5\x00\x1E*\xBB\x00Y\xB7\x00\x14\xB6\x00$\xBB\x00\x0FY\xB7\x00\x15:\x06\x19\x06\xBB\x00	Y\x08\x08\xB7\x00\x16\xB6\x00$\xBB\x00
+Y\xB7\x00\x13:\x07\x15\x046\x08\xA7\x00\x10\x19\x07\x15\x08\xB8\x00&\xB6\x00\x1C\x84\x08\x01\x15\x08\x15\x05\xA4\xFF\xEF\x19\x07\x1D\xB8\x00&\xB6\x00#\x19\x06\x12\x01\x19\x07\xB6\x00\x1BW\x19\x06\x12\x03\xBB\x00\x0EY\x12\x04\xB7\x00\x17\xB6\x00\x1BW*\x19\x06\xB6\x00\x1AW\xBB\x00\x0FY\xB7\x00\x15:	\x19	\xBB\x00	Y\x08\x08\xB7\x00\x16\xB6\x00$\xBB\x00
+Y\xB7\x00\x13:
+\x036\x0B\xA7\x00\x11\x19
+\xB2\x00 \x15\x0B2\xB6\x00\x1C\x84\x0B\x01\x15\x0B\x10\x0C\xA1\xFF\xEE\x19
+\x1C\x04d\xB6\x00"\x19	\x12\x01\x19
+\xB6\x00\x1BW\x19	\x12\x03\xBB\x00\x0EY\x12\x02\xB7\x00\x17\xB6\x00\x1BW*\x19	\xB6\x00\x1AW\xB1\x00\x00\x00\x01\x00O\x00\x00\x00b\x00\x18\x00\x00\x00\xEA\x00\x04\x00\xF0\x00	\x00\xF2\x00\x14\x00\xF6\x00\x1D\x00\xF7\x00+\x00\xFB\x004\x00\xFD\x00;\x00\xFE\x00E\x00\xFD\x00O\x01\x00\x00X\x01\x02\x00b\x01\x03\x00s\x01\x04\x00z\x01\x08\x00\x83\x01	\x00\x91\x01\x00\x9A\x01\x0E\x00\xA0\x01\x0F\x00\xAB\x01\x0E\x00\xB5\x01\x11\x00\xBD\x01\x13\x00\xC7\x01\x14\x00\xD8\x01\x16\x00\xDF\x00\xEA\x00\x01\x00Z\x00?\x00\x01\x00I\x00\x00\x00\xA3\x00\x03\x00\x05\x00\x00\x00S+\xB4\x00%\xC1\x00
+\x99\x00J\x03>\xA7\x00!\xB2\x00 \x1D2+\xB4\x00\x1D\xB6\x00\x1F\x99\x00\x0F*\xB4\x00\x1E\x1D\x04`\xB6\x00\x18\x04¨Ñ\x03\x01\x1D\x10\x0C\xA1\xFF\xDF\x036\x04+\xB4\x00\x1D\xC0\x00\x12\xB8\x00!6\x04\xA7\x00\x06W\x03\xAC*\xB4\x00\x1E\x15\x04\xB6\x00\x19\x03\xAC\x00\x01\x006\x00B\x00E\x00\x10\x00\x01\x00O\x00\x00\x006\x00\x00\x00\x01\x1C\x00
+\x01!\x00\x0F\x01"\x00\x1E\x01#\x00(\x01$\x00*\x01!\x003\x01*\x006\x01+\x006\x01,\x00B\x01+\x00E\x01.\x00H\x01/\x00Q\x013\x00\x01\x00U\x00\x00\x00\x02\x00G
+$$$$$$ Response Body For Transaction With Id 51 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/Calendar.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 47 ******
+	web_url("Calendar.class",
+		"URL=http://127.0.0.1:1080/WebTours/Calendar.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=YearMonthPanel.class", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 47 Ended $$$$$$
+
+****** Request Header For Transaction With Id 56 ******
+GET /WebTours/DayPanel.class HTTP/1.1
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 56 Ended $$$$$$
+
+****** Response Header For Transaction With Id 56 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:24 GMT
+Content-type: */*
+Content-length: 2799
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 56 Ended $$$$$$
+
+****** Response Body For Transaction With Id 56 ******
+ ˛∫æ\x00\x03\x00-\x00\xB3\x08\x00\\\x08\x00y\x08\x00|\x08\x00\x8C\x08\x00\x8E\x07\x00w\x07\x00}\x07\x00\x7F\x07\x00\x8F\x07\x00\x9B\x07\x00\x9C\x07\x00\x9D\x07\x00\x9E\x07\x00\x9F\x07\x00\xA0\x07\x00\xA1\x07\x00\xA2\x07\x00\xA3\x07\x00\xA4\x07\x00\xA5\x07\x00\xA6\x07\x00\xA7\x07\x00\xA8
+\x00
+\x00<
+\x00\x12\x00<
+\x00\x17\x00<
+\x00\x10\x00=
+\x00\x17\x00>
+\x00\x08\x00?
+\x00\x0B\x00@
+\x00\x11\x00@
+\x00\x16\x00@
+\x00\x11\x00A
+\x00\x0F\x00B	\x00\x08\x00C
+\x00\x06\x00D	\x00\x08\x00E
+\x00\x08\x00F	\x00\x08\x00G
+\x00\x00H
+\x00\x00I
+\x00\x16\x00J
+\x00\x16\x00K
+\x00\x17\x00L	\x00\x07\x00M
+\x00\x17\x00N
+\x00\x17\x00O
+\x00\x0B\x00P
+\x00\x17\x00Q
+\x00\x17\x00R	\x00\x07\x00S
+\x00\x14\x00T
+\x00\x00U
+\x00\x0C\x00V
+\x00\x00W	\x00\x0E\x00X
+\x00\x16\x00Y
+\x00\x14\x00Z
+\x00\x15\x00[\x0C\x00u\x00_\x0C\x00u\x00e\x0C\x00u\x00f\x0C\x00u\x00g\x0C\x00u\x00p\x0C\x00u\x00q\x0C\x00u\x00r\x0C\x00v\x00\x84\x0C\x00~\x00c\x0C\x00\x80\x00\x87\x0C\x00\x8A\x00`\x0C\x00\x8B\x00\x86\x0C\x00\x92\x00h\x0C\x00\x92\x00s\x0C\x00\x93\x00b\x0C\x00\x93\x00o\x0C\x00\x94\x00t\x0C\x00\x95\x00\x90\x0C\x00\x96\x00]\x0C\x00\x97\x00]\x0C\x00\x98\x00^\x0C\x00\x99\x00]\x0C\x00\x9A\x00]\x0C\x00\xAA\x00\x90\x0C\x00\xAB\x00n\x0C\x00\xAC\x00i\x0C\x00\xAD\x00k\x0C\x00\xAE\x00l\x0C\x00\xAF\x00\x88\x0C\x00\xB0\x00^\x0C\x00\xB0\x00a\x0C\x00\xB1\x00m\x01\x00\x01 \x01\x00\x03()I\x01\x00\x14()Ljava/lang/String;\x01\x00\x03()V\x01\x00\x13(I)Ljava/awt/Label;\x01\x00\x15(I)Ljava/lang/String;\x01\x00\x1B(I)Ljava/lang/StringBuffer;\x01\x00\x04(I)V\x01\x00\x15(II)Ljava/awt/Button;\x01\x00\x05(II)V\x01\x00\x06(III)V\x01\x00(LCalendar;)V\x01\x00*(Ljava/awt/Component;)Ljava/awt/Component;\x01\x00\x17(Ljava/awt/Component;)V\x01\x00%(Ljava/awt/Event;Ljava/lang/Object;)Z\x01\x00\x12(Ljava/awt/Font;)V\x01\x00\x1B(Ljava/awt/LayoutManager;)V\x01\x00&(Ljava/lang/Object;)Ljava/lang/String;\x01\x00\x15(Ljava/lang/String;)I\x01\x00,(Ljava/lang/String;)Ljava/lang/StringBuffer;\x01\x00\x15(Ljava/lang/String;)V\x01\x00\x16(Ljava/lang/String;I)V\x01\x00\x17(Ljava/lang/String;II)V\x01\x00<(Ljava/lang/String;Ljava/awt/Component;)Ljava/awt/Component;\x01\x00\x13(Ljava/util/Date;)Z\x01\x00\x06<init>\x01\x00\x06CalPtr\x01\x00\x08Calendar\x01\x00Calendar.java\x01\x00\x06Center\x01\x00\x04Code\x01\x00ConstantValue\x01\x00\x07Courier\x01\x00\x08DateInfo\x01\x00
+DateSelect\x01\x00\x08DayPanel\x01\x00\x08DayTable\x01\x00\x08DrawDays\x01\x00
+Exceptions\x01\x00\x01I\x01\x00
+LCalendar;\x01\x00\x0FLineNumberTable\x01\x00\x10Ljava/awt/Label;\x01\x00\x10Ljava/awt/Panel;\x01\x00\x12Ljava/lang/Object;\x01\x00\x0ELocalVariables\x01\x00\x16MakeDaynameHeaderLabel\x01\x00
+MonthLabel\x01\x00\x05North\x01\x00
+SourceFile\x01\x00\x05South\x01\x00\x0EYearMonthPanel\x01\x00\x13[Ljava/lang/String;\x01\x00\x06action\x01\x00\x03add\x01\x00\x06append\x01\x00\x06before\x01\x00\x07dayname\x01\x00\x07getDate\x01\x00\x06getDay\x01\x00\x08getLabel\x01\x00\x08getMonth\x01\x00\x07getYear\x01\x00\x15java/awt/BorderLayout\x01\x00\x0Fjava/awt/Button\x01\x00\x12java/awt/Component\x01\x00\x12java/awt/Container\x01\x00\x0Ejava/awt/Event\x01\x00java/awt/Font\x01\x00\x13java/awt/GridLayout\x01\x00\x0Ejava/awt/Label\x01\x00\x0Ejava/awt/Panel\x01\x00\x13java/lang/Exception\x01\x00\x11java/lang/Integer\x01\x00\x10java/lang/String\x01\x00\x16java/lang/StringBuffer\x01\x00\x0Ejava/util/Date\x01\x00\x05month\x01\x00	monthname\x01\x00\x08parseInt\x01\x00\x06remove\x01\x00\x07setFont\x01\x00	setLayout\x01\x00\x06target\x01\x00\x08toString\x01\x00\x07valueOf\x01\x00\x04year\x00 \x00\x08\x00\x12\x00\x00\x00\x05\x00\x00\x00\xB2\x00\x83\x00\x00\x00\x00\x00\xA9\x00\x83\x00\x00\x00\x02\x00\x80\x00\x87\x00\x00\x00\x02\x00\x8B\x00\x86\x00\x00\x00\x02\x00v\x00\x84\x00\x00\x00\x05\x00\x01\x00u\x00_\x00\x01\x00z\x00\x00\x00"\x00\x02\x00\x01\x00\x00\x00\x06*\x01\xB7\x00\x1D\xB1\x00\x00\x00\x01\x00\x85\x00\x00\x00
+\x00\x02\x00\x00\x00\x83\x00\x05\x00\x82\x00\x01\x00u\x00g\x00\x01\x00z\x00\x00\x00\x87\x00\x05\x00\x04\x00\x00\x00K*\xB7\x00\x19*+\xB5\x00#\xBB\x00\x12Y\xB7\x00\x19M,\xBB\x00\x10Y\x03\x10\x07\xB7\x00\x1B\xB6\x007\x03>\xA7\x00\x10,*\x1D\xB7\x00&\xB6\x00(W\x84\x03\x01\x1D\x10\x07\xA1\xFF\xF0*\xBB\x00
+Y\xB7\x00\x18\xB6\x007*\x12\x04,\xB6\x00)W\xB1\x00\x00\x00\x01\x00\x85\x00\x00\x00*\x00
+\x00\x00\x00\x87\x00\x04\x00\x88\x00	\x00\x89\x00\x11\x00\x8E\x00\x1F\x00\x90\x00$\x00\x91\x00.\x00\x90\x007\x00\x93\x00B\x00\x94\x00J\x00\x87\x00\x02\x00\x8A\x00`\x00\x01\x00z\x00\x00\x00@\x00\x06\x00\x03\x00\x00\x00 \xBB\x00\x11Y\xB2\x00-\x1B2\x04\xB7\x00!M,\xBB\x00\x0FY\x12\x03\x04\x10\x0C\xB7\x00"\xB6\x006,\xB0\x00\x00\x00\x01\x00\x85\x00\x00\x00\x0E\x00\x03\x00\x00\x00\x99\x00\x0E\x00\x9A\x00\x1E\x00\x9B\x00\x01\x00\x81\x00d\x00\x01\x00z\x00\x00\x01\xC0\x00
+\x00\x00\x00\x01H*\xB4\x00%\xC6\x00\x0B**\xB4\x00%\xB6\x005*\xB4\x00'\xC6\x00\x0B**\xB4\x00'\xB6\x005*\xBB\x00\x12Y\xB7\x00\x19\xB5\x00%*\xB4\x00%\xBB\x00\x10Y\x03\x10\x07\xB7\x00\x1B\xB6\x007\xBB\x00\x17Y\x1B\x1C\x04d\x04\xB7\x00\x1CN*\x12\x05*\xBB\x00\x11Y\xBB\x00\x16Y\xB2\x003\x1C\x04d2\xB8\x00;\xB7\x00 \x12\x01\xB6\x00+\x1B\x11\x07l`\xB6\x00*\xB6\x009\x04\xB7\x00!Z\xB5\x00'\xB6\x00)W-\xB6\x00/6\x04\xBB\x00\x17Y\xB7\x00\x1AN-\xB6\x002\x1B\xA0\x00\x16-\xB6\x001\x1C\x04d\xA0\x00\x0C-\xB6\x00.6\x05\xA7\x00\x06\x026\x05\x036\x06\xA7\x00\x17*\xB4\x00%\xBB\x00\x11Y\x12\x01\xB7\x00\x1F\xB6\x00(W\x84\x06\x01\x15\x06\x15\x04\xA1\xFF\xE8\x1C\x10\x0C\xA0\x00\x0E\x1B\x04`6\x07\x036\x08\xA7\x00	\x1B6\x07\x1C6\x08\xBB\x00\x17Y\x15\x07\x15\x08\x04\xB7\x00\x1C:	\x01:
+\x046\x0C\xA7\x00?\xBB\x00\x17Y\x1B\x1C\x04d\x15\x0C\xB7\x00\x1CN-\x19	\xB6\x00,\x99\x00/*\xB4\x00%\xBB\x00\x0BY\x15\x0C\xB8\x00:\xB7\x00\x1EY:\x0B\xB6\x00(W\x15\x0C\x15\x05\xA0\x00\x07\x19\x0B:
+\x84\x0C\x01\x15\x0C\x10 \xA1\xFF\xC0*\x12\x02*\xB4\x00%\xB6\x00)W\x19
+\xB0\x00\x00\x00\x01\x00\x85\x00\x00\x00f\x00\x19\x00\x00\x00\xA4\x00\x0F\x00\xA5\x00\x1E\x00\xA7\x00)\x00\xA8\x00:\x00\xAA\x00G\x00\xAB\x00|\x00\xAD\x00\x82\x00\xAE\x00\x8A\x00\xB0\x00\xA5\x00\xB1\x00\xA8\x00\xB5\x00\xC9\x00\xBA\x00\xCF\x00\xBB\x00\xD7\x00\xBA\x00\xDA\x00\xBE\x00\xE0\x00\xC0\x00\xEE\x00\xC4\x00\xF1\x00\xC7\x00\xF7\x00\xC8\x01\x05\x00\xC9\x01\x0E\x00\xCA\x01%\x00\xCB\x010\x00\xC7\x01:\x00\xCE\x01E\x00\xD0\x00\x01\x00\x91\x00j\x00\x01\x00z\x00\x00\x00o\x00\x02\x00\x04\x00\x00\x00/+\xB4\x008\xC1\x00\x0B\x99\x00&*\xB4\x00#\xC6\x00\x1F+\xB4\x008\xC0\x00\x0B\xB6\x000\xB8\x004>*\xB4\x00#\x1D\xB6\x00$\xA7\x00\x06W\x03\xAC\x03\xAC\x00\x01\x00\x11\x00'\x00*\x00\x13\x00\x01\x00\x85\x00\x00\x00&\x00	\x00\x00\x00\xD5\x00
+\x00\xD6\x00\x11\x00\xD7\x00\x11\x00\xD9\x00\x1B\x00\xD8\x00\x1F\x00\xDA\x00'\x00\xD7\x00*\x00\xDC\x00-\x00\xDF\x00\x01\x00\x8D\x00\x00\x00\x02\x00x
+$$$$$$ Response Body For Transaction With Id 56 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/Calendar.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 47 ******
+	web_url("Calendar.class",
+		"URL=http://127.0.0.1:1080/WebTours/Calendar.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=YearMonthPanel.class", "Referer=", ENDITEM,
+		"Url=DayPanel.class", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 47 Ended $$$$$$
+
+****** Request Header For Transaction With Id 60 ******
+GET /WebTours/DateInfo.class HTTP/1.1
+User-Agent: Mozilla/4.0 (Windows 2003 5.2) Java/1.6.0_39
+Host: 127.0.0.1:1080
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 60 Ended $$$$$$
+
+****** Response Header For Transaction With Id 60 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:25 GMT
+Content-type: */*
+Content-length: 827
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 60 Ended $$$$$$
+
+****** Response Body For Transaction With Id 60 ******
+ ˛∫æ\x00\x03\x00-\x00F\x08\x00#\x08\x00$\x08\x00+\x08\x00-\x08\x00.\x08\x00/\x08\x000\x08\x001\x08\x004\x08\x005\x08\x006\x08\x007\x08\x008\x08\x009\x08\x00:\x08\x00<\x08\x00=\x08\x00>\x08\x00?\x07\x00%\x07\x00)\x07\x00*\x07\x00@\x07\x00C\x07\x00D
+\x00\x18\x00\x1D	\x00\x15\x00\x1E	\x00\x15\x00\x1F\x0C\x00"\x00 \x0C\x00B\x00A\x0C\x00E\x00A\x01\x00\x03()V\x01\x00\x08<clinit>\x01\x00\x06<init>\x01\x00\x05April\x01\x00\x06August\x01\x00\x08Calendar\x01\x00Calendar.java\x01\x00\x04Code\x01\x00ConstantValue\x01\x00\x08DateInfo\x01\x00\x08DayPanel\x01\x00\x08December\x01\x00
+Exceptions\x01\x00\x08February\x01\x00\x03Fri\x01\x00\x07January\x01\x00\x04July\x01\x00\x04June\x01\x00\x0FLineNumberTable\x01\x00\x0ELocalVariables\x01\x00\x05March\x01\x00\x03May\x01\x00\x03Mon\x01\x00\x08November\x01\x00\x07October\x01\x00\x03Sat\x01\x00	September\x01\x00
+SourceFile\x01\x00\x03Sun\x01\x00\x03Thu\x01\x00\x03Tue\x01\x00\x03Wed\x01\x00\x0EYearMonthPanel\x01\x00\x13[Ljava/lang/String;\x01\x00\x07dayname\x01\x00\x10java/lang/Object\x01\x00\x10java/lang/String\x01\x00	monthname\x00 \x00\x15\x00\x18\x00\x00\x00\x02\x00\x19\x00B\x00A\x00\x00\x00\x19\x00E\x00A\x00\x00\x00\x02\x00\x00\x00"\x00 \x00\x01\x00'\x00\x00\x00\x1D\x00\x01\x00\x01\x00\x00\x00\x05*\xB7\x00\x1A\xB1\x00\x00\x00\x01\x002\x00\x00\x00\x06\x00\x01\x00\x00\x00m\x00\x08\x00!\x00 \x00\x01\x00'\x00\x00\x00\xCF\x00\x04\x00\x00\x00\x00\x00w\x10\x07\xBD\x00\x19Y\x03\x12\x10SY\x04\x12\x0BSY\x05\x12\x12SY\x06\x12\x13SY\x07\x12\x11SY\x08\x12\x05SY\x10\x06\x12\x0ES\xB3\x00\x1B\x10\x0C\xBD\x00\x19Y\x03\x12\x06SY\x04\x12\x04SY\x05\x12	SY\x06\x12\x01SY\x07\x12
+SY\x08\x12\x08SY\x10\x06\x12\x07SY\x10\x07\x12\x02SY\x10\x08\x12\x0FSY\x10	\x12SY\x10
+\x12\x0CSY\x10\x0B\x12\x03S\xB3\x00\x1C\xB1\x00\x00\x00\x01\x002\x00\x00\x00F\x00\x11\x00\x00\x00o\x00,\x00p\x00L\x00q\x00N\x00p\x00R\x00q\x00T\x00p\x00X\x00q\x00Z\x00p\x00^\x00q\x00`\x00p\x00d\x00q\x00f\x00p\x00j\x00r\x00l\x00p\x00p\x00r\x00r\x00p\x00v\x00m\x00\x01\x00;\x00\x00\x00\x02\x00&
+$$$$$$ Response Body For Transaction With Id 60 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/Calendar.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 47 ******
+	web_url("Calendar.class",
+		"URL=http://127.0.0.1:1080/WebTours/Calendar.class",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=YearMonthPanel.class", "Referer=", ENDITEM,
+		"Url=DayPanel.class", "Referer=", ENDITEM,
+		"Url=DateInfo.class", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 47 Ended $$$$$$
+
+****** Request Header For Transaction With Id 62 ******
+POST /WebTours/reservations.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Content-Length: 235
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 62 Ended $$$$$$
+
+****** Request Body For Transaction With Id 62 ******
+advanceDiscount=0&depart=Denver&departDate=02%2F10%2F2018&arrive=Paris&returnDate=02%2F28%2F2018&numPassengers=1&seatPref=None&seatType=Coach&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref&findFlights.x=45&findFlights.y=9
+$$$$$$ Request Body For Transaction With Id 62 Ended $$$$$$
+
+****** Response Header For Transaction With Id 62 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:28 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2490
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:28 GMT
+Expires: Thu, 08 Feb 2018 05:47:28 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 62 Ended $$$$$$
+
+****** Response Body For Transaction With Id 62 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+
+
+<!--- JSVerification Server Option -->
+<script src=/WebTours/chooseFlightValidate.js>document.write("Included JS file not found")</SCRIPT><form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">
+
+<center>
+<!-- From Denver (0) To Paris (4) -->
+<table cellspacing=2 border=0 width=50%>
+<blockquote>Flight departing from <B>Denver</B> to <B>Paris</B> on <B>02/10/2018</B><BR><BR><tr bgcolor=#5E7884><td align=center><font color=white><B>Flight</B></font>
+      		<td align=center><font color=white><B>Departure time</B>
+      		<td align=center><font color=white><B>Cost</B>
+<tr bgcolor=#EFF2F7><td align=center><input type = radio name=outboundFlight value=040;350;02/10/2018 checked >Blue Sky Air 040<td align=center>8am<td align=center>$ 350</TD></TR><tr bgcolor=#EFF2F7><td align=center><input type = radio name=outboundFlight value=041;312;02/10/2018>Blue Sky Air 041<td align=center>1pm<td align=center>$ 312</TD></TR><tr bgcolor=#EFF2F7><td align=center><input type = radio name=outboundFlight value=042;331;02/10/2018>Blue Sky Air 042<td align=center>5pm<td align=center>$ 331</TD></TR><tr bgcolor=#EFF2F7><td align=center><input type = radio name=outboundFlight value=043;287;02/10/2018>Blue Sky Air 043<td align=center>11pm<td align=center>$ 287</TD></TR></table>
+
+<input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" value="None"  />
+<P><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0" />
+<td>&nbsp;<td align=center></table></center></form></center>
+</blockquote>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 62 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/Calendar.class
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 62 ****** (Location Flag : tFlagInsertEnd, Location ID : 62)
+	web_submit_data("reservations.pl",
+		"Action=http://127.0.0.1:1080/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/reservations.pl?page=welcome",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=depart", "Value=Denver", ENDITEM,
+		"Name=departDate", "Value=02/10/2018", ENDITEM,
+		"Name=arrive", "Value=Paris", ENDITEM,
+		"Name=returnDate", "Value=02/28/2018", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=.cgifields", "Value=roundtrip", ENDITEM,
+		"Name=.cgifields", "Value=seatType", ENDITEM,
+		"Name=.cgifields", "Value=seatPref", ENDITEM,
+		"Name=findFlights.x", "Value=45", ENDITEM,
+		"Name=findFlights.y", "Value=9", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 62 Ended $$$$$$
+
+****** Request Header For Transaction With Id 63 ******
+POST /WebTours/reservations.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Content-Length: 143
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 63 Ended $$$$$$
+
+****** Request Body For Transaction With Id 63 ******
+outboundFlight=040%3B350%3B02%2F10%2F2018&numPassengers=1&advanceDiscount=0&seatType=Coach&seatPref=None&reserveFlights.x=21&reserveFlights.y=2
+$$$$$$ Request Body For Transaction With Id 63 Ended $$$$$$
+
+****** Response Header For Transaction With Id 63 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:30 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 3622
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:30 GMT
+Expires: Thu, 08 Feb 2018 05:47:30 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 63 Ended $$$$$$
+
+****** Response Body For Transaction With Id 63 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Reservation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Payment Details</font></b></h1><blockquote><SCRIPT src=/WebTours/purchaseValidate.js>document.write("Included JS file not found")</SCRIPT><SCRIPT src=/WebTours/JSFormSubmit.js>document.write("Included JS file not found")</SCRIPT>
+<!--  JSFormSubmit Server Option is ON
+
+The action tag is empty on purpose.  The javascript called when the form is submitted.
+The javascript will tweak some values, set the action location (where the data should
+be submitted to) and then submit the data.
+
+Finally, the JavaScript handler returns FALSE.  This inhibits the normal form submission
+via the form's defintion in HTML.
+
+Since these are images instead of submit buttons and JavaScript doesn't have an onClick
+handler for image buttons, the form's onSubmit handler must be used.  However, if a 
+form used normal submit buttons and an onClick handler, the javscript code and behavior
+would be very similar.
+
+--->
+
+<form method="post" action="error.pl?error=invalidData" enctype="application/x-www-form-urlencoded" onsubmit="if (validateForm(this)) {doJSFormSubmit2(this) }" name="JSFormSubmitForm2">
+<table><tr><td align=right>First Name : <td><input type="text" name="firstName" value="jack" size="15" /><tr><td align=right>Last Name : <td><input type="text" name="lastName" value="andy&#10;" size="15" /><tr><td align=right>Street Address : <td colspan=3><input type="text" name="address1" value="sdfdsf" size="30" /><tr><td align=right>City/State/Zip : <td colspan=3><input type="text" name="address2" value="shanghai" size="30" /><tr><td align=right>Passenger Names : <td colspan=3><input type="text" name="pass1" value="jack andy&#10;" size="30" /><tr><td height=10><tr><td height=10 align=center colspan=4>Total for 1 ticket(s) is = $ 350<tr><td align=right>Credit Card : <td><input type="text" name="creditCard"  size="20" maxlength="20" /><td align=right>Exp Date : <td><input type="text" name="expDate" value="&#10;" size="5" maxlength="5" /><tr><TD><td colspan=3 align=left><label><input type="checkbox" name="saveCC" value="on" />Save this Credit Card Information</label><input type="hidden" name="oldCCOption" value=""  /></table><input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" value="None"  /><input type="hidden" name="outboundFlight" value="040;350;02/10/2018"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="returnFlight" value=""  /><input type="hidden" name="JSFormSubmit" value="off"  /><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" /><div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>
+<td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit="void(0);">
+</form></table></center></blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 63 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/reservations.pl
+Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 63 ****** (Location Flag : tFlagInsertEnd, Location ID : 63)
+	web_submit_data("reservations.pl_2",
+		"Action=http://127.0.0.1:1080/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/reservations.pl",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=outboundFlight", "Value=040;350;02/10/2018", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=reserveFlights.x", "Value=21", ENDITEM,
+		"Name=reserveFlights.y", "Value=2", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 63 Ended $$$$$$
+
+****** Request Header For Transaction With Id 64 ******
+GET /WebTours/purchaseValidate.js HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 64 Ended $$$$$$
+
+****** Response Header For Transaction With Id 64 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:30 GMT
+Content-type: application/x-javascript
+Content-length: 11792
+Last-modified: Tue, 26 Oct 2004 12:18:07 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 64 Ended $$$$$$
+
+****** Response Body For Transaction With Id 64 ******
+// check for IE3
+var isIE3 = (navigator.appVersion.indexOf('MSIE 3') != -1);
+
+
+/***************************************************************
+** define and instantiate validation objects
+** the validation object accepts the following parameters:
+**
+**   realName: name used in the alerts (same as label on the page)
+**
+**   formEltName: this must be the name of the corresponding
+**       HTML form element; make it the same as the object name
+**
+**   eltType: element type (we have to create this since IE3
+**       doesn't support the type property for for elements)
+**     text
+**     textarea
+**     checkbox
+**     radio
+**     select
+**
+**   uptoSnuff: function call that's evaluated during validation check
+**     isText(str)
+**     isSelect(formObj)
+**     isRadio(formObj)
+**     isCheck(formObj, form, [index of first checkbox in group],
+**         [number of checkboxes])
+**     isEmail(str)
+**     isState(str)
+**     isZipCode(str)
+**     isPhoneNum(str)
+**     isDate(str)
+**
+**   format: text representation of required format;
+**       pass 'null' if no required format;
+**       used in alert as an aid to user
+***************************************************************/
+
+// object definition
+function validation(realName, formEltName, eltType, upToSnuff, format) {
+  this.realName = realName;
+  this.formEltName = formEltName;
+  this.eltType = eltType;
+  this.upToSnuff = upToSnuff;
+  this.format = format;
+}
+
+/***************************************************************
+** create a new object for each form element you need to validate
+** for example:
+** var lastName = new validation('last name', 'lastName', 'text', 'isText(str)', null);
+** var phoneNum = new validation('phone number', 'phoneNum', 'text', 'isPhoneNum(str)', 'xxx-xxx-xxxx');
+** var reason = new validation('reason for reading this', 'reason', 'checkbox', 'isCheck(formObj, form, 14, 3)', null);
+***************************************************************/
+// create objects here:
+
+
+var firstN = new validation('first name', 'firstName', 'text', 'isText(str)', null);
+var lastN = new validation('last name', 'lastName', 'text', 'isText(str)', null);
+var address = new validation('address', 'address1', 'text', 'isText(str)', null);
+var csz = new validation('City/State/Zip', 'address2', 'text', 'isText(str)', null);
+var cc = new validation('credit card number', 'creditCard', 'text', 'isText(str)', null);
+var ccIsNum = new validation('credit card number', 'creditCard', 'text', 'isNumber(str)', null);
+var expMonth = new validation('expiration date', 'expDate', 'text', 'isExpDate(str)', 'mm/yy');
+
+
+
+
+/***************************************************************
+** Define the elts array:
+** Add a new item to the array for each object you create above
+** Make sure the value of the array element is the same as
+** the name of the object, and that the array elements are listed
+** in the same order the corresponding objects appear in the form
+** (it's more clear to the user that way)
+** for example:
+** var elts = new Array(lastName, phoneNum, reason)
+***************************************************************/
+var elts = new Array(firstN, lastN, address, csz, cc, ccIsNum, expMonth);
+
+
+/***************************************************************
+** The main function keeps track of which fields the user missed
+** or filled in incorrectly, and alerts the user so they can go
+** back and fix what's wrong.
+** Set allAtOnce to true if you want this "validation help" to
+** alert the user to all mistakes at once; set it to false if
+** you want it to show one mistake at a time
+***************************************************************/
+var allAtOnce = true;
+
+
+/***************************************************************
+** change text for alerts here
+** unspecified field (text): "Please include [field name]."
+** unspecified field (other): "Please choose [field name]."
+** invalid text field entries: "[field value] is an invalid [field name]!"
+** help with format: "Use this format: "
+***************************************************************/
+var beginRequestAlertForText = "Please include ";
+var beginRequestAlertGeneric = "Please choose ";
+var endRequestAlert = ".";
+var beginInvalidAlert = " is an invalid ";
+var endInvalidAlert = "!";
+var beginFormatAlert = "  Use this format: ";
+
+
+/***************************************************************
+** these functions validate the string or form object passed in,
+** and return true or false based on whether the test succeeds or fails
+**
+** validate existence of input
+**   isText(str): verifies text input or textarea is not empty
+**   isSelect(formObj): verifies item from a select menu is chosen
+**   isRadio(formObj): verifies one of a group of radio buttons is chosen
+**   isCheck(formObj, form, [begin], [num]): verifies at least one
+**       of a group of checkboxes is checked
+**     for [begin], fill in the index number in the elements array
+**         of the first checkbox (remember to start counting from zero)
+**     for [num], fill in the number of checkboxes in the group
+**
+** validate text in text input or textarea matches pattern
+**   isEmail(str): verifies email address (contains "@" and ".")
+**   isState(str): verifies U.S. State Code
+**   isZipCode(str): verifies zip code of form xxxxx or xxxxx-xxxx
+**   isPhoneNum(str): verifies phone number of form xxx-xxx-xxxx
+**   isDate(str): verifies date of form mm/dd/yyyy
+***************************************************************/
+
+function isText(str) {
+  return (str != "");
+}
+
+function isSelect(formObj) {
+  return (formObj.selectedIndex != 0);
+}
+
+function isRadio(formObj) {
+  for (j=0; j<formObj.length; j++) {
+    if (formObj[j].checked) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isCheck(formObj, form, begin, num) {
+  for (j=begin; j<begin+num; j++) {
+    if (form.elements[j].checked) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isEmail(str) {
+  return ((str != "") && (str.indexOf("@") != -1) && (str.indexOf(".") != -1));
+}
+
+function isState(str) {
+  str = str.toUpperCase();
+  return ( (str == "AK") || (str == "AL") || (str == "AR") || (str == "AZ") || (str == "CA") || (str == "CO") || (str == "CT") || (str == "DC") || (str == "DE") || (str == "FL") || (str == "GA") || (str == "HI") || (str == "IA") || (str == "ID") || (str == "IL") || (str == "IN") || (str == "KS") || (str == "KY") || (str == "LA") || (str == "MA") || (str == "MD") || (str == "ME") || (str == "MI") || (str == "MN") || (str == "MO") || (str == "MS") || (str == "MT") || (str == "NB") || (str == "NC") || (str == "ND") || (str == "NH") || (str == "NJ") || (str == "NM") || (str == "NV") || (str == "NY") || (str == "OH") || (str == "OK") || (str == "OR") || (str == "PA") || (str == "RI") || (str == "SC") || (str == "SD") || (str == "TN") || (str == "TX") || (str == "UT") || (str == "VA") || (str == "VT") || (str == "WA") || (str == "WI") || (str == "WV") || (str == "WY") );
+}
+
+function isZipCode(str) {
+  var l = str.length;
+  if ((l != 5) && (l != 10)) { return false }
+  for (j=0; j<l; j++) {
+    if ((l == 10) && (j == 5)) {
+      if (str.charAt(j) != "-") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+  return true;
+}
+
+function isPhoneNum(str) {
+  if (str.length != 12) { return false }
+  for (j=0; j<str.length; j++) {
+    if ((j == 3) || (j == 7)) {
+      if (str.charAt(j) != "-") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+  return true;
+}
+
+function isNumber(str) {
+  for (j=0; j < str.length; j++) {
+    if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+  }
+  return true;
+}
+
+function isExpDate(str) {
+  if (str.length != 5) { return false }   
+  for (j=0; j<str.length; j++) {
+    if (j == 2) {
+      if (str.charAt(j) != "/") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+  
+  var month = parseInt(str.substring(0, 2), 10);
+  
+  if ((month > 12) || (month < 1)) { return false };
+  
+  return true;
+}  
+
+function isDate(str) {
+  if (str.length != 10) { return false }
+
+  for (j=0; j<str.length; j++) {
+    if ((j == 2) || (j == 5)) {
+      if (str.charAt(j) != "/") { return false }
+    } else {
+      if ((str.charAt(j) < "0") || (str.charAt(j) > "9")) { return false }
+    }
+  }
+
+  var month = str.charAt(0) == "0" ? parseInt(str.substring(1,2)) : parseInt(str.substring(0,2));
+  var day = str.charAt(3) == "0" ? parseInt(str.substring(4,5)) : parseInt(str.substring(3,5));
+  var begin = str.charAt(6) == "0" ? (str.charAt(7) == "0" ? (str.charAt(8) == "0" ? 9 : 8) : 7) : 6;
+  var year = parseInt(str.substring(begin, 10));
+
+  if (day == 0) { return false }
+  if (month == 0 || month > 12) { return false }
+  if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+    if (day > 31) { return false }
+  } else {
+    if (month == 4 || month == 6 || month == 9 || month == 11) {
+      if (day > 30) { return false }
+    } else {
+      if (year%4 != 0) {
+        if (day > 28) { return false }
+      } else {
+        if (day > 29) { return false }
+      }
+    }
+  }
+  return true;
+}
+
+
+/***************************************************************
+** The validateForm() function validates the form elements
+** previously defined as validation objects and as members of
+** the elts array. We loop through the elts array, testing each
+** element in turn, and alerting the user when they've missed
+** a required field
+***************************************************************/
+
+function validateForm(form) {
+  var formEltName = "";
+  var formObj = "";
+  var str = "";
+  var realName = "";
+  var alertText = "";
+  var firstMissingElt = null;
+  var hardReturn = "\\r\\n";
+
+  for (i=0; i<elts.length; i++) {
+    formEltName = elts[i].formEltName;
+    formObj = eval("form." + formEltName);
+    realName = elts[i].realName;
+
+    if (elts[i].eltType == "text") {
+      str = formObj.value;
+
+      if (eval(elts[i].upToSnuff)) continue;
+
+      if (str == "") {
+        if (allAtOnce) {
+          alertText += beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+          if (firstMissingElt == null) {firstMissingElt = formObj};
+        } else {
+          alertText = beginRequestAlertForText + realName + endRequestAlert + hardReturn;
+          alert(alertText);
+        }
+      } else {
+        if (allAtOnce) {
+          alertText += str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;
+        } else {
+          alertText = str + beginInvalidAlert + realName + endInvalidAlert + hardReturn;
+        }
+        if (elts[i].format != null) {
+          alertText += beginFormatAlert + elts[i].format + hardReturn;
+        }
+        if (allAtOnce) {
+          if (firstMissingElt == null) {firstMissingElt = formObj};
+        } else {
+          alert(alertText);
+        }
+      }
+    } else {
+      if (eval(elts[i].upToSnuff)) continue;
+      if (allAtOnce) {
+        alertText += beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;
+        if (firstMissingElt == null) {firstMissingElt = formObj};
+      } else {
+        alertText = beginRequestAlertGeneric + realName + endRequestAlert + hardReturn;
+        alert(alertText);
+      }
+    }
+    if (!isIE3) {
+      var goToObj = (allAtOnce) ? firstMissingElt : formObj;
+      if (goToObj.select) goToObj.select();
+      if (goToObj.focus) goToObj.focus();
+    }
+    if (!allAtOnce) {return false};
+  }
+  if (allAtOnce) {
+    if (alertText != "") {
+      alert(alertText);
+      return false;
+    }
+  } 
+//  alert("I am valid!"); //remove this line when you use the code
+  return true; //change this to return true
+}
+
+$$$$$$ Response Body For Transaction With Id 64 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/reservations.pl
+Form: name=JSFormSubmitForm2 action=error.pl?error=invalidData
+Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 67 ******
+POST /WebTours/reservations.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Content-Length: 315
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&address2&shanghai&username&andy&hash&121&lastName&andy%0A&address1&sdfdsf&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 67 Ended $$$$$$
+
+****** Request Body For Transaction With Id 67 ******
+firstName=jack&lastName=andy&address1=sdfdsf&address2=shanghai&pass1=jack+andy&creditCard=011111111116&expDate=01%2F18&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=040%3B350%3B02%2F10%2F2018&advanceDiscount=0&returnFlight=&JSFormSubmit=on&.cgifields=saveCC&buyFlights.x=27&buyFlights.y=6
+$$$$$$ Request Body For Transaction With Id 67 Ended $$$$$$
+
+****** Response Header For Transaction With Id 67 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:54 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2410
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:47:54 GMT
+Expires: Thu, 08 Feb 2018 05:47:54 GMT
+Set-cookie: MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 67 Ended $$$$$$
+
+****** Response Body For Transaction With Id 67 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Reservation Made!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Invoice</font></b></h1><blockquote>
+<CENTER>
+<small><B>Thank you for booking through Web Tours.</B></small>
+<BR>
+<BR>
+<!-- Customer Name header -->
+<Table width=85% border=0 cellspacing=0 >
+  <TR bgcolor=#5E7884>
+     <TD colspan=2 align=center>
+        <font color=white><b>jackandy's Flight Invoice</b></font>
+     </TD>
+     <TD width=160 align=right>
+         <font color=white><small>Fri Feb  9 13:47:54 2018
+</small>
+     </TD>
+  </TR>
+</Table>
+
+<Table width=85% border=0 cellspacing=1 >
+<!-- Flight Item header -->
+  <TR bgcolor=#EFF2F7>
+     <TD colspan=2 align=left>
+         Flights Reservation Requests:
+    </TD>
+    <TD align=center>Cost
+    </TD>
+  </TR>
+
+<!-- Flight reserved -->
+<TR bgcolor=#EFF2F7>
+    <TD valign=top>1.</TD>
+    <TD align=left>
+       A Coach Class ticket
+ from Denver to Paris.</u></b>
+<br>
+<center>
+       <i>
+          02/10/2018 :  8am : Flight 040 leaves Denver  for Paris.<br>
+       <br>
+    </TD>
+    <TD valign=top>
+         $350
+    </TD>
+  </TR>
+<!-- Total Cost -->
+  <TR bgcolor=#EFF2F7>
+    <TD>*
+    </TD>
+    <TD > Total Cost
+    </TD>
+    <TD>
+       <b> $350 </b>
+    </TD>
+  </TR>
+
+  <TR bgcolor=#EFF2F7>
+    <TD>-
+    </TD>
+    <TD >
+       Total Charged to Credit Card # 011111111116
+    </TD>
+    <TD>
+       <b> $350 </b>
+    </TD>
+  </TR>
+
+  <TR bgcolor=#EFF2F7>
+    <TD>*
+    </TD>
+    <TD >
+        Credit Account Balance
+    </TD>
+    <TD>
+       <b> $0.00 </b>
+    </TD>
+  </TR></Table>
+<BR>
+<Table width=85% border=0>
+  <tr>
+    <td align=right>
+<form method="post" action="" enctype="application/x-www-form-urlencoded">
+<input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" /></form>    </td>
+  </tr>
+</Table>
+
+</Center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 67 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/reservations.pl
+Form: name=JSFormSubmitForm2 action=error.pl?error=invalidData
+Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 67 ****** (Location Flag : tFlagInsertEnd, Location ID : 67)
+	web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:1080/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/reservations.pl",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=firstName", "Value=jack", ENDITEM,
+		"Name=lastName", "Value=andy", ENDITEM,
+		"Name=address1", "Value=sdfdsf", ENDITEM,
+		"Name=address2", "Value=shanghai", ENDITEM,
+		"Name=pass1", "Value=jack andy", ENDITEM,
+		"Name=creditCard", "Value=011111111116", ENDITEM,
+		"Name=expDate", "Value=01/18", ENDITEM,
+		"Name=oldCCOption", "Value=", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=outboundFlight", "Value=040;350;02/10/2018", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=returnFlight", "Value=", ENDITEM,
+		"Name=JSFormSubmit", "Value=on", ENDITEM,
+		"Name=.cgifields", "Value=saveCC", ENDITEM,
+		"Name=buyFlights.x", "Value=27", ENDITEM,
+		"Name=buyFlights.y", "Value=6", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 67 Ended $$$$$$
+
+****** Request Header For Transaction With Id 68 ******
+GET /WebTours/images/bookanother.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 68 Ended $$$$$$
+
+****** Response Header For Transaction With Id 68 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:47:54 GMT
+Content-type: image/gif
+Content-length: 806
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 68 Ended $$$$$$
+
+****** Response Body For Transaction With Id 68 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^\x11\x08\xB6\x08\x02
+\x0C\x18òöp\x08\x1Aæn\x04\x08ù√	\x1D\x08\x13\xA0\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1F÷WZ]^\x1C\x08\x1C\x1A\x02\x04ªΩr\x08\x1Bq\x10\xB8\x03\xC6\x1D\x13\xC5\x19\x08\x9F	Õy–}\x7F\x16Å©\x8E>§ÿ\x16À[\xA4\x00\xE2\x16T0˜¿\x83-\x01\x19:h∏≈°É\x80\x13\x04hp≥·\xA2\x006\x1E\x04<dC\x0CóEì∏l\xFF\x05`0\x11\x17\x00	\x02D\x12@U-ñ@\x14\x04\x1D\x19\x04wÀV\x84\x05\xEB\x1AòÉ`n\x021
+\xEB\x10xp„@\x00\x07w\x1D\x12\x10ã∞°ÿD\xE14T’P\x8F\x00L\x02
+\xD60\x07T#\x07ö‹\x00\xDC<\x91\x13ÀŒ/J7TıP\xF5\x01Ñ™\xC92@pw·÷\x9B\x01∏ày\x80@‡c\xB2\x05ÖI\x12H\x80 "\x82\x00R/ˆD A,µ¥kµ•}\x1BNÃÑ™U1M¨«\x864\x02bÏ⁄\xC4$P\x18\x01\x03\xD6\x1DÍa\x80m\x91\x00Èz\x14\x14\xB0\x06-wC\x05•ß\x00b…‹V÷¡\x84\x0B\x05∏€∞¿\\≤≈\xC40\x00\x9B\x18°Õ„]\xC98$\xCE;\x11\x00\xE0\xEE\x1CK ,@∫á\x85\x04jm\x08^3‡¿Õêx\xDE\x12\x10aÇC\\\x11√Ÿ“@î]LíÜ\x01\x08\x1Bi'ù÷AXçŸ\xA3\x1B\xA3\x01\x0F\x94$Œo\x1E∞á\xD9\x0CØ¿7\xCB\x17\x03\xB8\x15\x80.\x0CLê¡\x05l¨°\x002\x1D`\x00A\x1Bö`B\x87\x03\x0Eà»\x00\x1B\x18,`WT&\x96\x01\xC1\x03\x13ò±\xC0\x00a\xF4(a,\xD8\x00∞H#n≈˜\x05%dò¡K&\xF14……=˘Ë\x11M?ó©¬ "Tx\x00ÑN[¯s§g\x96,)åìd¢»\x8C3§¯\x01\xC8?\xED\x19Ç»\x079`Èƒút÷i\xA7\x11PT!B\x9C>ÙÈÁü+\x00Òƒ\x01\xD9\x00jË°.l0\xC4!\x00\x00;
+$$$$$$ Response Body For Transaction With Id 68 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/reservations.pl
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 69 ******
+GET /WebTours/welcome.pl?page=itinerary HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Header For Transaction With Id 69 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 535
+Content-type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Body For Transaction With Id 69 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?page=menu&in=itinerary name=navbar 
+            marginheight=2 marginwidth=2 noresize scrolling=auto>
+      <!-- Itinerary Frame -->
+      <frame src=itinerary.pl name=info 
+            marginheight=2 marginwidth=2 noresize scrolling=auto>
+   </frameset>
+
+$$$$$$ Response Body For Transaction With Id 69 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/reservations.pl
+Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 69 ****** (Location Flag : tFlagInsertEnd, Location ID : 69)
+	web_url("welcome.pl",
+		"URL=http://127.0.0.1:1080/WebTours/welcome.pl?page=itinerary",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=flights",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 69 Ended $$$$$$
+
+****** Request Header For Transaction With Id 70 ******
+GET /WebTours/itinerary.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?page=itinerary
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 70 Ended $$$$$$
+
+****** Response Header For Transaction With Id 70 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2537
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Expires: Thu, 08 Feb 2018 05:48:03 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 70 Ended $$$$$$
+
+****** Response Body For Transaction With Id 70 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER=0 WIDTH=85% CELLSPACING=0>
+<TR bgcolor=#5E7884>
+  <TD colspan=4 align=center><font color=white><B>jack andy
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor=#EFF2F7>
+  <TD width=5% rowspan=2 align=left valign=top>
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="41334827-796-ja"  />
+  </TD>
+  <TD width=45% valign=top>
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>
+      <center><table border=0 width=85%><tr><td>
+      <li><i>jack andy
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width=5% >.<br>.<br>.<br>.</TD>
+  <TD width=45% valign=top><b>Invoice sent to:</b><br>
+      <center>
+      <Table width=80% cellspacing=0 > <tr> <td>
+          jack andy
+<br>
+          sdfdsf<br>
+          shanghai<br>
+          <br>
+          Total Charge: $ 350 <BR> (CC: x-1116)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor=#EFF2F7>
+  <TD COLSPAN=3>
+  <b>Flight Details:</b><BR>  <center>
+  02/10/2018
+ :  8am : Flight 040 leaves Denver  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor=#EFF2F7>
+  <TD COLSPAN=4>
+  <hr>
+  </TD>
+</TR>
+<TR>
+   <TD align=center COLSPAN=4>
+   <b>A total of 1 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH=87% BORDER=0 CELLSPACING=0>
+<TR>
+<TD align=left width=50% >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align=right width=50% >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="1"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 70 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 71 ******
+GET /WebTours/nav.pl?page=menu&in=itinerary HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?page=itinerary
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 71 Ended $$$$$$
+
+****** Response Header For Transaction With Id 71 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1446
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Expires: Thu, 08 Feb 2018 05:48:03 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 71 Ended $$$$$$
+
+****** Response Body For Transaction With Id 71 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/flights.gif 
+ALT="Search Flights Button"></A>
+<br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/in_itinerary.gif 
+ALT="Itinerary Button"></A>
+<br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/home.gif 
+ALT="Home Button"></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/images/signoff.gif 
+ALT="SignOff Button"></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 71 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	The Node is NULL
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 72 ******
+GET /WebTours/images/in_itinerary.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=itinerary
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 72 Ended $$$$$$
+
+****** Response Header For Transaction With Id 72 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Content-type: image/gif
+Content-length: 733
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 72 Ended $$$$$$
+
+****** Response Body For Transaction With Id 72 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x18\x98\x14\x08
+\x1D\x04	\x1B\x08ù√r\x9F	\x18x
+\x15|\x12¶ÇÑéT&\x1E\x1F—WZ]^`∂∏\x98\x12\xC2\x13¬ƒ‰p∆»yÀ}\x7F\x16Å©\x8E\x1F)÷±Ÿë\xDC\x0B\xB7\x0Fóô\x08\x19\x02\x08\x028\x08\xE8 \xE0\x1F\x02\x0Fl\x0C"Ù/ Çá\x08\x0B>‹¿\x86\x00Bcw\x1E(c∆Ó\xD95\x00ÒPÃsTo\x1B•[f\xD0\xFF@\x00\xD7!\x98\x06\x08(\x14\\@``\xCD\x050!\x10@ I\x00\x01	;e
+\x88\x10¨É\x02\x04\x16:`L¶Œ\x0F è±B\x9E\x18â•‰ó\x93
+ÙÂ‚ó°C\xBF\x02vQ,˙∞\xEC\x06\x02\x04 \xB09\x0B\x10\x02\x02J\xDF\x06c\xA0\x14\x142çM;¢Ç\x16UﬁG´˜»§\xFC&,\x830\xB2\x14s˙‘∞a\xC3\x04ül\x1E\xA2\x15ÜÄbÇö\x02\x10\xD6ïåî”SÔ∞H≠ˆ\x17í…nÉπz\xCD\x00\x16ÇÄ\xB1\x02t
+»¿\xA1\x1FZ\xBA\x08\x00\xF8\x13ˆöÕÇ\x87\x11\xD8,M«ÒÈﬁè£© ≤GâåV¬F'∆|€RX\x00\x85\x04	tH`üWäF\x0B\xB69«@£gΩ°AŒxUz÷U1\x82\x19l•†\x80n®M	ˆ\hìÄÕÖ
+r\x1C‰ÄpvuV\x1Ch|I\xE3\x01Z\x8B4RïiÔUb∆|ÂT8¿Cj\x11xåÅ\xEB\x18\x17\x1A+ãP\xE1\x01\x10$m—NÑÒQXa9é—Q\xE0(\x07∫ì\xA0!à|êCàN‰®„é<\x1A\x01E\x15"‹Ë√êD\x16\xB9\x02\x10O\x1C@çëL6È¬\x06C\xDC\x10\x02\x00;
+$$$$$$ Response Body For Transaction With Id 72 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	/WebTours/nav.pl?page=menu&in=itinerary
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 73 ******
+GET /WebTours/images/cancelreservation.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/itinerary.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 73 Ended $$$$$$
+
+****** Response Header For Transaction With Id 73 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:03 GMT
+Content-type: image/gif
+Content-length: 831
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 73 Ended $$$$$$
+
+****** Response Body For Transaction With Id 73 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$\xAA\x1A\x02\x08\xB4\x1Bíî\x15\x96\x18òö\x9B\x04\x04	n\x04\xB4\x08\x1El\x08
+ùü	\x1B\x08\x18
+\x15|\x12¶Ç\x00\x08\x1AXT&\x1E\x1FÑW\x08\x02\x1B\x1A√_∏∫ºù\x02\x04n\x02\x02\x1C\x19\xCD\x03\x19\x08\x9D\x1D\x9F\x18\x1A\x08y—}\x7F\x16Å¥Ës\xF4!Ö∑+√¥\xA0"\xA0!\xC0,Z
+d\x11[”å÷Ç\x0E\x0Fç˝b¿f\x01\x82\x01\xC1 x––!\x1C\xAD\x0C\x1D\xF4\xFFÖC\xA9\x12[3\x08\x04\x04L\x18@l√Ää≥\xB2\x01(à‚`\x03w
+µD–ßA\x9F	l45(@\xB0!\x00”ò\x0BÙad«¶\x19\x1Cz\x042¨K\x80m\xC2:\x08Îº
+–Á\x01¡§ub\x02p'ë†¡o\xEB8@\xF2\x12\x80\xDC,\x0F\xCD&p’–ÃA\x1Bb\xB56V\xAD\x07\x07A\x00
+\xBF*\x12+\x99!Xáä\x1E\xA2\x01∆Ü\x94\x03S\x00;ﬂ^)´–ÇÄ\x13·ÜmË[r\x1Ca>Î¯nP∞Æ\x06\x04\x13⁄x»Jx]≥qŸË›É–†Ÿ∞	◊û–gM\x1F°Ã=øY~7`\x98,\x01\x11ö·≠∑\xB74∆u\x022X\xCE \x98–«Lπ¢¸uÅÈT\xAE\x04\x1CîÕÎniˆa4\x05\x0C»âÖÁâÉW$÷í–≤X3\x0C\x18àÉÅb\x0B8D\x8B1≠µCåº1∫MÖAY'u`\x011|¡÷\x006-ŸdôIn	\x07\x8B*\x1C\x14≈¡\x00_X\x00@\x00\x13Tp\xC12\x0C@\xD0\x01\x04\x0C,†I\x02{pƒÜcm0êÅ\x02.v†Ä\x8D\x1D\xA8\x11#\x8E\x1D§»\xC0.\x0C(‡G\x1F÷pÅJQ"÷Ä\x17\x00\x8B4ÇÖBëÄ!\x06\x19fÏí\x89=`⁄≥\x0C\x06x\xE8!\xCD?\xD5(« "Tx\x00\x84#ù—E	óG\xA6\x13ÊùråY&)~\x00\x12\x905\x85\x1CÚ \x079∞Èƒ°\x88&™®\x11PT!B\xA1>D*È§+\x00Òƒ\x01‹P™È\xA6.l0\xC4!\x00\x00;
+$$$$$$ Response Body For Transaction With Id 73 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	/WebTours/nav.pl?page=menu&in=itinerary
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 76 ******
+GET /WebTours/images/cancelallreservations.gif HTTP/1.1
+Accept: */*
+Referer: http://127.0.0.1:1080/WebTours/itinerary.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 76 Ended $$$$$$
+
+****** Response Header For Transaction With Id 76 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:04 GMT
+Content-type: image/gif
+Content-length: 742
+Last-modified: Mon, 08 Feb 2010 11:51:43 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 76 Ended $$$$$$
+
+****** Response Body For Transaction With Id 76 ******
+GIF89a\\\x00\x13\x00\xC4\x1F\x00æƒÕÃ“€RUW√ ‘}Çá˜˜˜€‹ﬁ» \xCD)+,ﬁ‰Ó÷›Ê—ÿ‚⁄·Î¿∆—‹„ÌÿﬁËﬁÊ…–ŸÕ‘ﬁ‘€Â‡ÁÒ”€Â∆Õ◊ÿﬂÈ€‚Ìœ÷‡±∑ø§®Æº√Õ·ËÚìïô\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x1F\x00,\x00\x00\x00\x00\\\x00\x13\x00\x00\x05\xFF\xE0'\x16¿Êùh™ÆlÎæp|n@!ﬁÜ¨Ô|\x0F\x1B∏”¡v+\x1Aè»§r…l\x16\x0B\x81\x13\xB0 ˝p8\x80Fc0∞D\x02íÃb¢∏0\x1C\x89\x04•√nªﬂ∏‹MI;\x18\x17≈dëë\x04"\x16\\Z\x00W\x1F	'\x05\x07\x1E\x07VWY[]\x11\x11aceg	\x10ksõús\x14\x10	wy{}íÅ\x03ÉW\x1C\x1FQ%\x1E$™è\\^ìb\x15\x96\x12\x02\x08\xBB\x1Aùæ\x04\x04	n\x1B\x08\x01l\xC4\x1D\x08\x1Bx
+\x15|\x12¶ÇÑéT&\x1E\x1F‘WZ]^`∂ñ\x08\x04\x03\x13\x04\x08æù\x02\x04o\x02\x02\x1E\xC7\x02…ÀyŒ}\x7F\x16Å©\x8E\x1F)Ÿ±‹ë\xBE-∏ı\xC0\x03\x82\x07\x0E\xD6\x10»–A◊Æ\x0E\x1A\x1CûÎ@l◊ÇÜª\xDE\x01c–f\x01\x02è«\x10@\x10∞ÏA≥g˜§\xFFi\x03\xC0\x0F\x85?G\x00ΩQ∫U\x01\x18&M\x1D, ‡¢åò\x06\x9D\x1A\x14(\x0B†å\x80\x80\x05\x1AŒ©scS@Ø§\x10\x941´Á\x07ê X-Oºƒ\x12ÛÀL\x05\x0F\xD4)»‰f\x80—û\x08\x84!–@ÃAõ]p7l|´Æ\x1DE\x01\x0E÷^0I5%™iX˚≠\xEC*êå\x03b7\x13\x10ÿ@Lù≤§l\x1EO‰£éÌ\x06\x05KC\x1A57\x01ô‘Q(≠˛]\x99\x15€`H2¡ô\x11'ÅÇ9≥Ò\x922\x16∞Ü§ºÜu3p@êan√w\x1DF.∆ªvjËS˙∞îﬁ*+ %2\x0F\x18Xê®!¡n\xB8\x1Eê…√PÒc\x00áÔ2Ôv#˚úTì§\xAA"\x07ºo∆´”≥ºä!c\x06\x03\x83\x05\x12‹v†p_\x98\x1C\x08˜ií¿\x1E\x1C±·\xDF\x19n@\x90 c3È˘ï\\xD9\x01∞H#\\\xA1&_%ı›ÑŒÜú|íÄ}†Ÿ#Zr\xAC,B\x85\x07@¿¥\x05>\x17“«\x00\x06\x1Ar(#\x1C\x1EÇ®«q˘∞g\x08"\x1F‰`\xA2\x13@\x06)‰êF@Q\x85\x08>˙†‰íL\xAE\x00\xC4\x13\x07\\”‰îT∫∞\xC1\x107\x84\x00\x00;
+$$$$$$ Response Body For Transaction With Id 76 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	/WebTours/nav.pl?page=menu&in=itinerary
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 77 ******
+POST /WebTours/itinerary.pl HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/itinerary.pl
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Content-Length: 79
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 77 Ended $$$$$$
+
+****** Request Body For Transaction With Id 77 ******
+1=on&flightID=41334827-796-ja&.cgifields=1&removeFlights.x=48&removeFlights.y=7
+$$$$$$ Request Body For Transaction With Id 77 Ended $$$$$$
+
+****** Response Header For Transaction With Id 77 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:08 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 883
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:48:08 GMT
+Expires: Thu, 08 Feb 2018 05:48:08 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 77 Ended $$$$$$
+
+****** Response Body For Transaction With Id 77 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center><H3>No flights have been reserved.</H3></center>
+</form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 77 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	/WebTours/nav.pl?page=menu&in=itinerary
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 77 ****** (Location Flag : tFlagInsertEnd, Location ID : 77)
+	web_submit_data("itinerary.pl",
+		"Action=http://127.0.0.1:1080/WebTours/itinerary.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/itinerary.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=1", "Value=on", ENDITEM,
+		"Name=flightID", "Value=41334827-796-ja", ENDITEM,
+		"Name=.cgifields", "Value=1", ENDITEM,
+		"Name=removeFlights.x", "Value=48", ENDITEM,
+		"Name=removeFlights.y", "Value=7", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 77 Ended $$$$$$
+
+****** Request Header For Transaction With Id 78 ******
+GET /WebTours/welcome.pl?signOff=1 HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=itinerary
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155218&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jack&username&andy&address2&shanghai&hash&121&address1&sdfdsf&lastName&andy%0A
+
+
+$$$$$$ Request Header For Transaction With Id 78 Ended $$$$$$
+
+****** Response Header For Transaction With Id 78 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:10 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 630
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:48:10 GMT
+Set-cookie: MTUserInfo=; path=/; expires=Thu, 08-Feb-2018 05:48:10 GMT
+Set-cookie: MSO=SID&1518155290&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+
+
+$$$$$$ Response Header For Transaction With Id 78 Ended $$$$$$
+
+****** Response Body For Transaction With Id 78 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border=1 frameborder=1>
+      <!-- Navigation Frame -->
+      <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+      <!-- Home Frame -->
+      <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 
+            noresize scrolling=auto>
+   </frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 78 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/WebTours/welcome.pl?page=itinerary
+	/WebTours/nav.pl?page=menu&in=itinerary
+	/WebTours/itinerary.pl
+	Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 78 ****** (Location Flag : tFlagInsertEnd, Location ID : 78)
+	web_url("SignOff Button",
+		"URL=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t9.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 78 Ended $$$$$$
+
+****** Request Header For Transaction With Id 79 ******
+GET /WebTours/home.html HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155290&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 79 Ended $$$$$$
+
+****** Response Header For Transaction With Id 79 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:10 GMT
+Content-type: text/html
+Content-length: 1322
+Last-modified: Tue, 08 May 2007 15:40:23 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 79 Ended $$$$$$
+
+****** Response Body For Transaction With Id 79 ******
+<HTML>
+<HEAD>
+	<title>Web Tours</title>
+</head>
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #003366}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+<body bgcolor=#e0e7f1>
+<BR>
+<BR>
+<BR>
+<br >
+<table border=0>
+<tr><td></td></tr>
+<TR><TD></TD></TR>
+<TR><TD>
+<blockquote>
+<H1><b>Web Tours</b></H1>
+Welcome to the Web Tours site.
+<br>
+To make reservations,please enter your account information to the left.
+<br>
+If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true" ><B>sign up now</B></A> to get access to all our resources.
+<br>
+To configure the server options, use <A href="admin.pl" target=body ><b>administration</b></A> link.
+<br><br><br><br><br><br>
+<br><small>
+This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imatix.com" target=new><B><small>iMatix Corporation</small></B></A> 
+</small>
+</blockquote></TD>
+<TD></TD></TR>
+</table>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 79 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/welcome.pl?page=itinerary
+		/WebTours/nav.pl?page=menu&in=itinerary
+		/WebTours/itinerary.pl
+		Form: name= action=itinerary.pl
+	/WebTours/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 80 ******
+GET /WebTours/nav.pl?in=home HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, */*
+Referer: http://127.0.0.1:1080/WebTours/welcome.pl?signOff=1
+Accept-Language: zh-cn
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1518155290&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSWPages&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+
+
+$$$$$$ Request Header For Transaction With Id 80 Ended $$$$$$
+
+****** Response Header For Transaction With Id 80 ******
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Fri, 09 Feb 2018 05:48:10 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 2645
+Content-type: text/html; charset=ISO-8859-1
+Date: Fri, 09 Feb 2018 05:48:10 GMT
+Expires: Thu, 08 Feb 2018 05:48:10 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 80 Ended $$$$$$
+
+****** Response Body For Transaction With Id 80 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<script language=Javascript src=/WebTours/JSFormSubmit.js> <!--- 
+ //Form submit is ON 
+ --> </script>
+<script language=JavaScript> <!---
+// This JavaScript will uses it's own write methods to display all the HTML code.
+// This means that the HTML code is generated on the client side - not the server side.
+// In some cases, if there was some calculation done to create the HTML, there could
+// problems discovering what the HTML actually is.  To examine those problems in more 
+// detail, look into the other Server Options --> set/change URLs and calculating 
+// data before it is put into a hidden field.
+
+
+
+document.writeln ("<style>")
+document.writeln ("blockquote {font-family: tahoma; font-size : 10pt}")
+document.writeln ("H1 {font-family: tahoma; font-size : 22pt; color: #993333}")
+document.writeln ("H3 {font-family: tahoma; font-size : 10pt; color: black}")
+document.writeln ("small {font-family: tahoma; font-size : 8pt}")
+document.writeln ("</style>")
+document.writeln ("<form method=post action=error.pl  onSubmit='doJSFormSubmit1(this)' target=body>")
+document.writeln ("<input type=hidden name=userSession value=122977.342243823zDcfztHpAtVzzzzHDHQfDpiiccf>")
+document.writeln ("<table border=0><tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;</td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;</td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><small>&nbsp;Username</small></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=text name=username value='' size=14 maxlength=14></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><small>&nbsp;Password</small></td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=password name=password value='' size=14 maxlength=14></td></tr>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td>&nbsp;<tr><td>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("<td><input type=image name=login value=Login alt=Login border=1 ")
+document.writeln ("src='/WebTours/images/mer_login.gif'>")
+document.writeln ("<tr><td>&nbsp;</td>")
+document.writeln ("</table><input type=hidden name=JSFormSubmit value='off'>")
+document.writeln ("</form>")
+//  --></script>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 80 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/WebTours/welcome.pl?page=itinerary
+		/WebTours/nav.pl?page=menu&in=itinerary
+		/WebTours/itinerary.pl
+		Form: name= action=itinerary.pl
+	/WebTours/welcome.pl?signOff=1
+		The Node is NULL
+		/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+Event Matching Error: IN Event left without an OUT event at the end of recording

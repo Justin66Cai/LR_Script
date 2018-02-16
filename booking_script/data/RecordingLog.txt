@@ -1,0 +1,218 @@
+[Network Analyzer ( bdc: 304)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( bdc: 304)] Load Network Traffic Analyzers:
+[Network Analyzer ( bdc: 304)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( bdc: 304)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( bdc: 304)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( bdc: 304)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( bdc: 304)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( bdc: 304)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( bdc: 304)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( bdc: e70)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: b90)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: 304)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: 304)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( bdc: e70)] "GET /WebTours/"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 302 bytes (Service=HTTP)
+[Network Analyzer ( bdc: b90)] Request Connection: Remote Server @ 127.0.0.1:5152   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 476 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  2) Client -> Server : 12 bytes 
+[Network Analyzer ( bdc: e70)]   (Sid:  2) Connection Terminated (by Client)
+[Web Request      ( bdc: e70)] "GET /WebTours/header.html"   
+[Network Analyzer ( bdc: dac)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 511 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 856 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: dac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( bdc: e70)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 373 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Client -> Server : 523 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 765 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 374 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 818 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 685 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/home.html"   
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Client -> Server : 680 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 1487 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 2645 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/JSFormSubmit.js"   
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Client -> Server : 521 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 179 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 291 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 526 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Server -> Client : 679 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /favicon.ico"   
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Client -> Server : 428 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      ( bdc: e70)] "POST /WebTours/login.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Client -> Server : 867 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( bdc: dac)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: dac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( bdc: e70)] "POST /WebTours/login.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 889 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 807 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 805 bytes (Service=HTTP)
+[Network Analyzer ( bdc: dac)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: dac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 800 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( bdc: 394)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: dac)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 659 bytes (Service=HTTP)
+[Network Analyzer ( bdc: 394)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 726 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 659 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 659 bytes (Service=HTTP)
+[Network Analyzer ( bdc: dac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 915 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 688 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Client -> Server : 661 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 733 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 912 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/welcome.pl?page=search"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 819 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 735 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 822 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/reservations.pl?page=welcome"   
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Client -> Server : 823 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 1699 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 4349 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 659 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/chooseFlightValidate.js"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 668 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 665 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 12217 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 852 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 890 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Client -> Server : 667 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Server -> Client : 758 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: bb8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6d0: bb8)] Load Network Traffic Analyzers:
+[Network Analyzer ( 6d0: bb8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 6d0: bb8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 6d0: bb8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 6d0: bb8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 6d0: bb8)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( 6d0: bb8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 6d0: bb8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6d0: b80)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: bb8)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: bb8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 6d0: b80)] "GET /WebTours/FormDateUpdate.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Client -> Server : 602 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      ( 6d0: b80)] "GET /WebTours/CalSelect.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Client -> Server : 597 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      ( 6d0: b80)] "GET /WebTours/Calendar.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Client -> Server : 596 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 6d0: b58)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: b58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 6d0: b80)] "GET /WebTours/YearMonthPanel.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  2) Client -> Server : 486 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  2) Server -> Client : 1871 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b58)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: b80)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 6d0: b58)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: b58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 6d0: b80)] "GET /WebTours/DayPanel.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  3) Client -> Server : 480 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  3) Server -> Client : 159 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  3) Server -> Client : 2799 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 6d0: b58)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( 6d0: b58)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 6d0: b80)] "GET /WebTours/DateInfo.class"   
+[Network Analyzer ( 6d0: b80)]   (Sid:  4) Client -> Server : 480 bytes (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  4) Server -> Client : 158 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  4) Server -> Client : 827 bytes  (Service=HTTP)
+[Network Analyzer ( 6d0: b80)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 912 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 235 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Server -> Client : 2490 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 1042 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 3622 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/purchaseValidate.js"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 651 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 181 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 11792 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Client -> Server : 899 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      ( bdc: e70)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 1214 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 374 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 2410 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 630 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 970 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/welcome.pl?page=itinerary"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 801 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 535 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 803 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/itinerary.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 786 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 1699 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 2537 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 645 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 633 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 897 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 995 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: 394)] Address lookup for helq-30b5fc9f6e = 192.168.152.129
+[Network Analyzer ( bdc: 394)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( bdc: e70)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Client -> Server : 637 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Server -> Client : 742 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "POST /WebTours/itinerary.pl"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 947 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 252 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 883 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Client -> Server : 798 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  6) Server -> Client : 1074 bytes  (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Client -> Server : 682 bytes (Service=HTTP)
+[Web Request      ( bdc: e70)] "GET /WebTours/home.html"   
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Client -> Server : 677 bytes (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  5) Server -> Client : 1322 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( bdc: e70)]   (Sid:  8) Server -> Client : 2645 bytes  (Service=HTTP)
