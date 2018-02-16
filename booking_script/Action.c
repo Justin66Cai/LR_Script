@@ -1,7 +1,10 @@
 char * randtime(int x,int y);
 Action()
 {
-		
+	int depnumber =rand()%1+7 ;//出发随机时间
+	int arrnumber = rand()%depnumber+2;//到达随机时间
+	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*depnumber, "deptime");
+	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*arrnumber, "arrtime");
 	
 	web_reg_save_param("session",
 		"LB=hidden name=userSession value=",
@@ -100,9 +103,9 @@ Action()
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=depart", "Value={depart}", ENDITEM, 
-		"Name=departDate", "Value={departDate}", ENDITEM, 
+		"Name=departDate", "Value={depnumber}", ENDITEM, 
 		"Name=arrive", "Value={arrive}", ENDITEM, 
-		"Name=returnDate", "Value=02/28/2018", ENDITEM, 
+		"Name=returnDate", "Value={arrnumber}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=seatType", "Value={seatType}", ENDITEM, 
@@ -168,16 +171,3 @@ Action()
 	return 0;
 }
 
-char * randtime(int x,int y){
-	//随机时间 x-y
-	char *time;
-	int s;
-	s=rand()%y+x;
-//	s=rand()%3+2;
-	lr_save_int(s,"temp");
-	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*s, "next");
-	//lr_save_string(lr_eval_string("{next}"),"randtime");
-  //  lr_output_message(randtime);
-   lr_output_message("%d",s);
-   return lr_eval_string("{next}");
-}
