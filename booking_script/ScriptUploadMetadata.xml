@@ -30,10 +30,15 @@
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="combined_zuoye.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="13401327744.idx" Filter="1" />
     <FileEntry Name="15391402144.idx" Filter="1" />
+    <FileEntry Name="15504894444.idx" Filter="1" />
     <FileEntry Name="15964735744.idx" Filter="1" />
+    <FileEntry Name="17389556044.idx" Filter="1" />
     <FileEntry Name="22623429744.idx" Filter="1" />
     <FileEntry Name="22719566644.idx" Filter="1" />
+    <FileEntry Name="22921544144.idx" Filter="1" />
+    <FileEntry Name="22937133544.idx" Filter="1" />
     <FileEntry Name="23473854844.idx" Filter="1" />
     <FileEntry Name="23473854844_5DH.119.idx" Filter="1" />
     <FileEntry Name="23473854844_6Xr.561.idx" Filter="1" />
@@ -53,14 +58,19 @@
     <FileEntry Name="23473854844_x6s.859.idx" Filter="1" />
     <FileEntry Name="23473854844_Z81.541.idx" Filter="1" />
     <FileEntry Name="23473854844_Z9T.973.idx" Filter="1" />
+    <FileEntry Name="24793548144.idx" Filter="1" />
     <FileEntry Name="7214662144.idx" Filter="1" />
+    <FileEntry Name="734839044.idx" Filter="1" />
     <FileEntry Name="8082137944.idx" Filter="1" />
+    <FileEntry Name="9618495544.idx" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="zuoye.c.pickle" Filter="1" />
     <FileEntry Name="zuoye.ci" Filter="1" />

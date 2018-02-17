@@ -1,43 +1,15 @@
 char * randtime(int x,int y);
 Action()
 {
-	int depnumber =rand()%1+7 ;//出发随机时间
-	int arrnumber = rand()%depnumber+2;//到达随机时间
-	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*depnumber, "deptime");
-	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*arrnumber, "arrtime");
+	char outFight[2048]; //定义航班长度
 	
-	web_reg_save_param("session",
-		"LB=hidden name=userSession value=",
-		"RB=>",
-		LAST); //关联session值
-	web_url("WebTours", 
-		"URL={url}", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		LAST);
-
+	int depnumber =rand()%8 ;//出发随机时间
+	int arrnumber = rand()%3+depnumber;//到达随机时间
+	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*depnumber, "deptime");//出发日期
+	lr_save_datetime("%m/%d/%Y", DATE_NOW+ONE_DAY*arrnumber, "arrtime");//到达日期
+	lr_output_message("depnumber=%d",depnumber);
+	lr_output_message("arrnumber=%d",arrnumber);
 	
-	web_submit_data("login.pl", 
-		"Action={url}login.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer={url}nav.pl?in=home", 
-		"Snapshot=t2.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value={session}", ENDITEM, 
-		"Name=username", "Value=andy", ENDITEM, 
-		"Name=password", "Value=123456", ENDITEM, 
-		"Name=JSFormSubmit", "Value=on", ENDITEM, 
-		"Name=login.x", "Value=49", ENDITEM, 
-		"Name=login.y", "Value=19", ENDITEM, 
-		LAST);
-	lr_output_message(lr_eval_string("{session}"));
 
 	web_url("Search Flights Button", 
 		"URL={url}welcome.pl?page=search", 
@@ -79,19 +51,24 @@ Action()
 		"Url=DayPanel.class", "Referer=", ENDITEM, 
 		"Url=DateInfo.class", "Referer=", ENDITEM, 
 		LAST);
-	
-// 	web_reg_save_param("outFight",
-// 		"LB=outboundFlight value=",
-// 		"RB=checked",
-// 		"Ordinal=all",
-// 		"NotFound=ERROR",
-// 		LAST);
-	web_reg_save_param_regexp(
-	 	"ParamName=outFight",
-        "RegExp=outboundFlight value=([0-9]*;[0-9]*;[0-9]*/[0-9]*/[0-9]*)",
-        "Ordinal=all",
-		SEARCH_FILTERS,
-		LAST );   //拿到随机的班次
+
+ 	web_reg_save_param("outFight",
+		"LB=outboundFlight value=",
+		"RB=>",
+		"Ordinal=all",
+        "SaveLen=18",
+	//只取关联函数的18位字符
+		"NotFound=ERROR",
+		LAST);
+// 	web_reg_save_param_regexp(
+// 	 	"ParamName=outFight",
+//         "RegExp=outboundFlight value=([0-9]*;[0-9]*;[0-9]*/[0-9]*/[0-9]*)",
+//         "Ordinal=all",
+// 		SEARCH_FILTERS,
+// 		LAST );
+		
+
+	//拿到随机的班次
 	web_submit_data("reservations.pl", 
 		"Action={url}reservations.pl", 
 		"Method=POST", 
@@ -103,9 +80,11 @@ Action()
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=depart", "Value={depart}", ENDITEM, 
-		"Name=departDate", "Value={depnumber}", ENDITEM, 
+		//参数化
+		"Name=departDate", "Value={deptime}", ENDITEM, 
 		"Name=arrive", "Value={arrive}", ENDITEM, 
-		"Name=returnDate", "Value={arrnumber}", ENDITEM, 
+		//参数化
+		"Name=returnDate", "Value={arrtime}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=seatType", "Value={seatType}", ENDITEM, 
@@ -115,8 +94,8 @@ Action()
 		"Name=findFlights.x", "Value=45", ENDITEM, 
 		"Name=findFlights.y", "Value=9", ENDITEM, 
 		LAST);
-	lr_output_message(lr_eval_string("{outFight}"));
-
+	lr_output_message(lr_eval_string("{arrtime}"));
+	lr_output_message(lr_eval_string("{deptime}"));
 	
 	lr_save_string(lr_paramarr_random("outFight"),"randOutFight");
 
@@ -170,4 +149,6 @@ Action()
 
 	return 0;
 }
+
+
 

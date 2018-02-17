@@ -1,4 +1,0 @@
-"firstName=jack&lastName=andy&address1=sdfdsf&address2=shanghai&pass1=jack+andy&creditCard=0111"
-"11111116&expDate=01%2F18&oldCCOption=&numPassengers=1&seatPref=Aisle&seatType=First&outboundFl"
-"ight=402%3B622%3B02%2F10%2F2018&advanceDiscount=0&returnFlight=&JSFormSubmit=on&.cgifields=sav"
-"eCC&buyFlights.x=27&buyFlights.y=6"
