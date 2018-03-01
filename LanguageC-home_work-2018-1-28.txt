@@ -1,3 +1,17 @@
+转译：
+\b 退格            
+\f 换页            
+\n 换行            
+\r 回车            
+\t 水平制表            
+\v 垂直制表            
+\\ 反斜杠            
+\? 问号字符        
+\‘ 单引号字符            
+\" 双引号字符             
+\0 空字符
+
+
 1.求int a[]={12,43,56,14,78,16,50,26,30,40};的最大值；
 
 实现方法一：
@@ -506,8 +520,63 @@ char *strTest2(char *ptr,int len)
 	//lr_output_message("%s",pt);
     return pt;
 }
-
+==============================================================
+截取数组,逗号分隔符
+extern char * strtok(char * string, const char * delimiters ); 
+	char path[] = "www.baidu.com,www.sina.com,www.cctv.com"; 
+	char * url1;
+	char * url2;
+	char * url3;
+    char   url[1024];
+	char   url4[1024]="http://";
+    char separators[] = ","; 
+    url1 = (char *)strtok(path, separators); //取path第一个逗号
+	url2 = (char *)strtok(NULL, separators);//取第二个
+	url3 = (char *)strtok(NULL, separators); //取第三个
+	lr_output_message ("url=%s , ur2=%s ,ur3=%s ", url1,url2,url3 );
 	
+	strcat(url4 ,url1);//将url4拼接成http://www.baidu.com
+	url1=url4;			//将url1修改成http://www.baidu.com
+	lr_output_message ("加http url1的值是:%s", url1 );
+   	strcpy(url ,"URL=");//将url的值变为"URL="
+	//url= url1;
+	strcat(url ,url1);//将url拼接成 URL=http://www.baidu.com
+	lr_output_message ("url的值:%s", url );
+
+	web_url("WebTours",  //访问百度
+		url, 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=", 
+		"Snapshot=t1.inf", 
+		"Mode=HTML", 
+		LAST);
+===================================================================
+截取数组匹配"x"个字符
+
+char *str123(const char *str, int c)
+{
+    char * p = NULL;// 初始化p
+	if(str == NULL)  //判断传入字符串为空时,返回null
+	{
+        return NULL;
+    }
+
+   
+    while(*str != '\0')  //条件 str不为0
+    {
+        if(*str == (char)c) //取c的值匹配字符串
+        {
+            p = (char *)str;//将str赋值给p
+        }
+        str++;   //自增取最后一个值
+	//	lr_output_message("ssss=%s",str);
+    }
+
+    return p;
+}
+
+     
 	
 	
 	
